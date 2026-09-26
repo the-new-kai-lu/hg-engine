@@ -15,7 +15,7 @@ The fork defaults in `include/config.h` and `armips/include/config.s` target the
 
 hg-engine still replaces battle code, including dynamic turn/speed ordering, damage/capture calculations, move/ability effects and end-of-turn processing. The capture code itself describes its generation-4 mode as an approximation. Canonical species data, learnsets and move data remain the engine's tables, not a byte-for-byte restoration from the original ROM. Later-generation species/items/moves remain compiled in, although this fork does not add encounters or gifts for them or the eleven custom species. Custom cries, sprites, paged Pokédex text and the approved evolution/EXP mechanics remain installed.
 
-Debug battle builds intentionally retain upstream's `GEN_CHAMPIONS` test-generation setting; the shipped normal `test.nds` uses generation 4 selectors. Always clean when switching test/normal builds.
+Both normal and automated battle builds use generation 4 selectors. The upstream assembly configuration tested whether a debug symbol existed even when its value was zero; this fork uses an explicit generation-4 setting to avoid that ambiguity. Always clean when switching test/normal builds.
 
 ## Save format
 

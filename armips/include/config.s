@@ -2,7 +2,8 @@
 
 GEN_CHAMPIONS equ 99
 
-GEN_LATEST equ defined(DEBUG_BATTLE_SCENARIOS) ? GEN_CHAMPIONS : 4
+// Keep normal and test builds on the same generation profile.
+GEN_LATEST equ 4
 
 // DISALLOW_DEXIT_GEN controls whether to disallow selection of dexited moves in later generations. Choose any Generation below 8 for none. 0 will instead disable any unimplemented moves.
 DISALLOW_DEXIT_GEN equ 0
