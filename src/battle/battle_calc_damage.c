@@ -925,9 +925,9 @@ void CalcDamageOverall(void *bw, struct BattleStruct *sp)
     // 0.25x damage into protect
     if (((attackerAbility == ABILITY_PIERCING_DRILL)
 #if UNSEEN_FIST_GENERATION >= GEN_CHAMPIONS
-            || (attackerAbility == ABILITY_UNSEEN_FIST))
+            || (attackerAbility == ABILITY_UNSEEN_FIST)
 #endif
-        && sp->oneTurnFlag[defender].protectFlag) {
+        ) && sp->oneTurnFlag[defender].protectFlag) {
         damage = QMul_RoundDown(damage, UQ412__0_25);
 #ifdef DEBUG_DAMAGE_ROLLS
         for (int u = 0; u < 16; u++) {

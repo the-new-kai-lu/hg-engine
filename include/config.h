@@ -1,12 +1,14 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// Fork default: closest-stock HGSS options; see documentation/fakemon/STOCK_PROFILE.md.
+
 #define GEN_CHAMPIONS 99
 
 #ifdef DEBUG_BATTLE_SCENARIOS
 #define GEN_LATEST GEN_CHAMPIONS
 #else
-#define GEN_LATEST 9
+#define GEN_LATEST 4
 #endif
 
 // APPLY_ANTIPIRACY will apply the typical anti-piracy code changes to your ROM automatically so that the game runs well on hardware (TWLmenu and R4 are both tested)
@@ -15,7 +17,7 @@
 
 // FAIRY_TYPE_IMPLEMENTED should be used if you want to implement the fairy type and overwrite type 9 in this project
 // set FAIRY_TYPE_IMPLEMENTED to 0 if you do not want this to happen
-#define FAIRY_TYPE_IMPLEMENTED 1
+#define FAIRY_TYPE_IMPLEMENTED 0
 
 // TYPE_EFFECTIVENESS_GEN defines the type chart interactions you would like to use.
 // Defining this as "5" or lower will revert Steel to resisting Ghost- and Dark-type moves.
@@ -36,26 +38,22 @@
 // HIDDEN_ABILITIES defines whether or not Pokémon with their hidden ability bit set will receive their hidden abilities when being generated/changing form in battle.
 // commenting this line out essentially disables hidden abilities to maintain default behavior, while leaving this as-is will introduce hidden abilities and all of their handling.
 // just need to set the HIDDEN_ABILITIES_FLAG from the save and then every mon should be generated with its hidden ability until the flag is cleared from another script
-#define HIDDEN_ABILITIES
+// #define HIDDEN_ABILITIES
 #define HIDDEN_ABILITIES_FLAG          2600
 #define HIDDEN_ABILITIES_STARTERS_FLAG 2601
 
 // MEGA_EVOLUTIONS defines whether or not Pokémon that are able to mega evolve will be able to do so.
 // commenting this line out essentially disables mega evolutions and maintains default behavior with respect to them.  leaving this as-is will introduce mega evolutions when applied to the game.
-#define MEGA_EVOLUTIONS
-
+// #define MEGA_EVOLUTIONS
 // PRIMAL_REVERSION defines whether or not Kyogre and Groudon, when holding their orbs, will be able to change form when sent out in battle.
 // commenting this line out essentially disables primal reversion.  leaving this as-is will introduce primal reversions when applied to the game.
-#define PRIMAL_REVERSION
-
+// #define PRIMAL_REVERSION
 // ITEM_POCKET_EXPANSION defines whether or not item pockets will be given extra slots in the save in order to provide space for new items that are implemented
 // commenting this line out will prevent the item pockets from being expanded for the new items
-#define ITEM_POCKET_EXPANSION
-
+// #define ITEM_POCKET_EXPANSION
 // IMPLEMENT_BDHCAM_ROUTINE defines whether or not the BDHCam routine (by Mikelan) will be built into the ROM.  this is necessary to get it shiftable because DSPRE writes it to a fixed location
 // uncommenting this line will include it in your ROM
-#define IMPLEMENT_BDHCAM_ROUTINE
-
+// #define IMPLEMENT_BDHCAM_ROUTINE
 // IMPLEMENT_TRANSPARENT_TEXTBOXES should be used if you want to implement transparent textboxes
 // uncommenting this line out will enable transparent textboxes
 // #define IMPLEMENT_TRANSPARENT_TEXTBOXES
@@ -67,20 +65,17 @@
 
 // IMPLEMENT_CAPTURE_EXPERIENCE defines whether or not capturing wild pokemon will net experience
 // commenting this line out disables capture experience
-#define IMPLEMENT_CAPTURE_EXPERIENCE
-
+// #define IMPLEMENT_CAPTURE_EXPERIENCE
 // IMPLEMENT_CRITICAL_CAPTURE defines whether or not throwing a poké ball has a certain percent chance of a guaranteed capture called a critical throw
 // commenting this line out disables critical captures
-#define IMPLEMENT_CRITICAL_CAPTURE
-
+// #define IMPLEMENT_CRITICAL_CAPTURE
 // if critical capture generation is 9 or above, then the critical capture animation will be triggered if the mon is going to be caught and has already been caught.
 // this will also make the critical capture species only count the regional dex species.
 #define CRITICAL_CAPTURE_GENERATION GEN_LATEST
 
 // IMPLEMENT_NEW_EV_IV_VIEWER defines whether or not pressing L, R, or Select in the pokémon summaries will display EV's, IV's, or the raw stat
 // commenting this line out disables the building of the new EV/IV viewing system
-#define IMPLEMENT_NEW_EV_IV_VIEWER
-
+// #define IMPLEMENT_NEW_EV_IV_VIEWER
 // IMPLEMENT_LEVEL_CAP defines whether or not a configurable hard level cap system is built into the rom based on the value in LEVEL_CAP_VARIABLE
 // if the level is greater than or equal to LEVEL_CAP_VARIABLE, the pokémon will no longer gain experience
 // uncommenting IMPLEMENT_LEVEL_CAP enables the level cap system.  make sure to also uncomment LEVEL_CAP_VARIABLE in the process
@@ -99,28 +94,24 @@
 
 // UPDATE_OVERWORLD_POISON will remove overworld poison if enabled
 // comment the line out below to retain overworld poison
-#define UPDATE_OVERWORLD_POISON
-
+// #define UPDATE_OVERWORLD_POISON
 // DISABLE_END_OF_TURN_WEATHER_MESSAGE removes the weather messages at the end of the turn.  instead the bottom screen icon can be used
 // uncomment the line out to get this functionality
 // #define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
 // IMPLEMENT_SEASONS currently implements season mechanics. Used for changing forms of Deerling and Sawsbuck.
 // Comment the line out to disable this functionality (Gen 6+)
-#define IMPLEMENT_SEASONS
-
+// #define IMPLEMENT_SEASONS
 // IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS allows wild species to appear with different forms if it has multiple forms.
 // Normally you will use monwithform, encounterwithform, headbuttencounterwithform to specify different forms (similar to Gen 5+)
 // Uncomment this line to enable this functionality
 // #define IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS
 
 // Some forms only exist in their debut games, with accompying mechanics. IMPLEMENT_GONE_SPECIES_MECHANICS lets these forms' mechanics coexist with the latest mechanics. Examples include Noble Pokémon
-#define IMPLEMENT_DEXIT_FORMS_MECHANICS
-
+// #define IMPLEMENT_DEXIT_FORMS_MECHANICS
 // EXPAND_PC_BOXES will expand the amount of pc boxes if enabled to 30
 // comment out the line below to keep the max at 18
-#define EXPAND_PC_BOXES
-
+// #define EXPAND_PC_BOXES
 // SHINY_ODDS are the odds that a pokémon will be shiny.  actual odds are SHINY_ODDS over 65,536, by default 8 / 65536 or 1 / 8192
 // note that changing this still has no chance of spawning shiny mons in for trainers like the tutorial's method does
 // this will change existing mons too!  if you want to change the odds of wild mons only, you will have to add a certain amount of pid rerolls to the AddWildPartyPokemon routine
@@ -128,19 +119,16 @@
 
 // FRIENDSHIP_EVOLUTION_THRESHOLD defines the amount of friendship needed to evolve mons with friendship-related evolutions
 // modern generations have this value at 160, older ones at 220.  still max out at 255
-#define FRIENDSHIP_EVOLUTION_THRESHOLD 160
+#define FRIENDSHIP_EVOLUTION_THRESHOLD 220
 
 // Friendship grants additional bonuses.
 // Comment out the line below to revert back to Gen 5- behaviour
-#define FRIENDSHIP_EFFECTS
-
+// #define FRIENDSHIP_EFFECTS
 // RESTORE_ITEMS_AT_BATTLE_END will restore held items that are single-use at the end of battle (Gen 9)
 // comment out the line below to revert back to Gen 8- behavior
-#define RESTORE_ITEMS_AT_BATTLE_END
-
+// #define RESTORE_ITEMS_AT_BATTLE_END
 // AI_CAN_GRAB_ITEMS allows to use Trick, Switcheroo, (Thief still todo) on the Player and actually grab items. This can result in lost items.
-#define AI_CAN_GRAB_ITEMS
-
+// #define AI_CAN_GRAB_ITEMS
 // PROTEAN_GENERATION defines the behavior that Protean should exhibit, where it either changes type every move (<=8) or changes type once per appearance in battle (>=9)
 #define PROTEAN_GENERATION GEN_LATEST
 
@@ -156,34 +144,28 @@
 #define SNOW_WARNING_GENERATION GEN_LATEST
 
 // IMPLEMENT_REUSABLE_REPELS defines whether or not a prompt to use another repel automatically appears upon the previous repel being used up
-#define IMPLEMENT_REUSABLE_REPELS
-
+// #define IMPLEMENT_REUSABLE_REPELS
 // UPDATE_VITAMIN_EV_CAPS changes the cap on the vitamins from 100 to 252 per recent generations
-#define UPDATE_VITAMIN_EV_CAPS
-
+// #define UPDATE_VITAMIN_EV_CAPS
 // DISABLE_ITEMS_IN_TRAINER_BATTLE will disable the usage of items in trainer battles. This is also true for the AI.
 // #define DISABLE_ITEMS_IN_TRAINER_BATTLE
 
 // REUSABLE_TMS will make TMs infinite and hide the quantity number.
-#define REUSABLE_TMS
-
+// #define REUSABLE_TMS
 // DELETABLE_HMS allows HMs to be forgotten, this also makes their quantity reduce, but the infinite TMs change prevents this.
 // #define DELETABLE_HMS
 
 // MART_EXPANSION allows for adding and modifying items to the mart inventories
-#define MART_EXPANSION
-
+// #define MART_EXPANSION
 // POKEATHLON_EXPANSION allows for adding and modifying items to the Pokéathlon shop inventories
 // #define POKEATHLON_SHOP_EXPANSION
 
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
-#define STATIC_HP_BAR
-
+// #define STATIC_HP_BAR
 // UPDATED_MACHINE_MOVE_LABELS modernizes bag label rendering for machine moves (TMs, HMs, and TRs)
 // to more closely match later generations. Note that disabling this will break TMs > 99 rendering in the bag
 // Comment out the line below to disable this feature
-#define UPDATE_MACHINE_MOVE_LABELS
-
+// #define UPDATE_MACHINE_MOVE_LABELS
 // Configs the ball capture ratio. 4 emulates the behaviour in HeartGold. However, due to the modernization of
 // the capture formula, it is only an estimate. Some are left as 4 to be less disruptive. Use GEN_LATEST for vanilla behaviour
 #define NEST_BALL_GENERATION   GEN_LATEST
@@ -228,10 +210,9 @@
 
 // DISABLE_CRITICAL_HP_WARNING should be used if you want to disable the warning whenever your pokemon is at critical health
 // comment out this line if you do not want this to happen
-#define DISABLE_CRITICAL_HP_WARNING
-
+// #define DISABLE_CRITICAL_HP_WARNING
 // UNSEEN_FIST_GENERATION defines the behavior that Unseen Fist should exhibit, where it either completely ignores Protect (<=8) or deals 0.25x Damage (>=9)
-#define UNSEEN_FIST_GENERATION GEN_CHAMPIONS
+#define UNSEEN_FIST_GENERATION GEN_LATEST
 
 // PREVENT_SELECTING_BERRY_PREREQUISITE_MOVES_GENERATION actiavtes the struggle check for Belch/Stuff Cheeks in Generations before Champions
 #define PREVENT_SELECTING_BERRY_PREREQUISITE_MOVES_GENERATION GEN_LATEST
@@ -244,30 +225,26 @@
 // #define SKIP_TUTORIAL_INFO
 
 // Champions-specific move configurations. Set to 0 to use Scarlet/Violet values.
-#define CHAMPIONS_POWER_CHANGES         1
-#define CHAMPIONS_TYPE_CHANGES          1
-#define CHAMPIONS_ACC_CHANGES           1
+#define CHAMPIONS_POWER_CHANGES         0
+#define CHAMPIONS_TYPE_CHANGES          0
+#define CHAMPIONS_ACC_CHANGES           0
 #define CHAMPIONS_PP_CHANGES            0
-#define CHAMPIONS_EFFECT_CHANCE_CHANGES 1
+#define CHAMPIONS_EFFECT_CHANCE_CHANGES 0
 
 // EXPAND_TRAINER_PRIZE_MONEY allows for additional trainers to have prize money associated.
 // Enable if you add new trainer classes or want to edit existing prize money ratios.
 // Refer to src/trainermoney.c
-#define EXPAND_TRAINER_PRIZE_MONEY
-
+// #define EXPAND_TRAINER_PRIZE_MONEY
 // EXPAND_TRAINER_GENDER_TABLE allows for adding/editing trainer genders.
 // Enable if you add new trainer classes or want to edit existing trainer genders.
 // Refer to src/pokemon.c
-#define EXPAND_TRAINER_GENDER_TABLE
-
+// #define EXPAND_TRAINER_GENDER_TABLE
 // EXPAND_MUSIC_TABLES allows for changing or expanding music tables.
 // Refer to src/music_tables.c
-#define EXPAND_MUSIC_TABLES
-
+// #define EXPAND_MUSIC_TABLES
 // EXPAND_ROAMERS allows for changing or expanding roamers.
 // Refer to src/field_roamer.c
-#define EXPAND_ROAMERS
-
+// #define EXPAND_ROAMERS
 // PLAY_MON_VICTORY_POSE enables the victory pose for Pokémon when fainting an opponent.
 // Comment out this define if you want to disable this feature.
 // #define PLAY_MON_VICTORY_POSE

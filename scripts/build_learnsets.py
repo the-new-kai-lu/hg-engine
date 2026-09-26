@@ -27,7 +27,7 @@ def load_species_header(file_path):
                 if 'SPECIES' in test and not '_START' in test and not '_SPECIES_H' in test and not '_NUM (' in line and not 'MAX_' in test:
                     species_dict[test] = index
                     index += 1
-                elif 'MAX_CANONICAL_MON_NUM' in test:
+                elif test == 'SPECIES_MAX_MON_NUM':
                     baseSpeciesMaxIndex = index-1
     return species_dict, baseSpeciesMaxIndex
 

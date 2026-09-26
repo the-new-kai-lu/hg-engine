@@ -1,0 +1,360 @@
+dataset,family,species,level,move_id,move,type,category,power,accuracy,pp,effect,priority,implemented,relation
+HGSS,Bulbasaur,Bulbasaur,1,MOVE_TACKLE,Tackle,Normal,Physical,35,95,35,0,0,True,Normal
+HGSS,Bulbasaur,Bulbasaur,3,MOVE_GROWL,Growl,Normal,Status,0,100,40,18,0,True,Normal
+HGSS,Bulbasaur,Bulbasaur,7,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,84,0,True,Own type
+HGSS,Bulbasaur,Bulbasaur,9,MOVE_VINE_WHIP,Vine Whip,Grass,Physical,35,100,15,0,0,True,Own type
+HGSS,Bulbasaur,Bulbasaur,13,MOVE_POISON_POWDER,Poison Powder,Poison,Status,0,75,35,66,0,True,Own type
+HGSS,Bulbasaur,Bulbasaur,13,MOVE_SLEEP_POWDER,Sleep Powder,Grass,Status,0,75,15,1,0,True,Own type
+HGSS,Bulbasaur,Bulbasaur,15,MOVE_TAKE_DOWN,Take Down,Normal,Physical,90,85,20,48,0,True,Normal
+HGSS,Bulbasaur,Ivysaur,20,MOVE_RAZOR_LEAF,Razor Leaf,Grass,Physical,55,95,25,43,0,True,Own type
+HGSS,Bulbasaur,Ivysaur,23,MOVE_SWEET_SCENT,Sweet Scent,Normal,Status,0,100,20,24,0,True,Normal
+HGSS,Bulbasaur,Ivysaur,28,MOVE_GROWTH,Growth,Normal,Status,0,0,40,13,0,True,Normal
+HGSS,Bulbasaur,Ivysaur,31,MOVE_DOUBLE_EDGE,Double-Edge,Normal,Physical,120,100,15,198,0,True,Normal
+HGSS,Bulbasaur,Venusaur,32,MOVE_PETAL_DANCE,Petal Dance,Grass,Special,90,100,20,27,0,True,Own type
+HGSS,Bulbasaur,Venusaur,39,MOVE_WORRY_SEED,Worry Seed,Grass,Status,0,100,10,247,0,True,Own type
+HGSS,Bulbasaur,Venusaur,45,MOVE_SYNTHESIS,Synthesis,Grass,Status,0,0,5,132,0,True,Own type
+HGSS,Bulbasaur,Venusaur,53,MOVE_SOLAR_BEAM,Solar Beam,Grass,Special,120,100,10,151,0,True,Own type
+HGSS,Charmander,Charmander,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,0,0,True,Normal
+HGSS,Charmander,Charmander,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,18,0,True,Normal
+HGSS,Charmander,Charmander,7,MOVE_EMBER,Ember,Fire,Special,40,100,25,4,0,True,Own type
+HGSS,Charmander,Charmander,10,MOVE_SMOKESCREEN,Smokescreen,Normal,Status,0,100,20,23,0,True,Normal
+HGSS,Charmander,Charmander,16,MOVE_DRAGON_RAGE,Dragon Rage,Dragon,Special,1,100,10,41,0,True,Other type
+HGSS,Charmander,Charmeleon,17,MOVE_DRAGON_RAGE,Dragon Rage,Dragon,Special,1,100,10,41,0,True,Other type
+HGSS,Charmander,Charmeleon,21,MOVE_SCARY_FACE,Scary Face,Normal,Status,0,90,10,60,0,True,Normal
+HGSS,Charmander,Charmeleon,28,MOVE_FIRE_FANG,Fire Fang,Fire,Physical,65,95,15,273,0,True,Own type
+HGSS,Charmander,Charmeleon,32,MOVE_SLASH,Slash,Normal,Physical,70,100,20,43,0,True,Normal
+HGSS,Charmander,Charizard,36,MOVE_WING_ATTACK,Wing Attack,Flying,Physical,60,100,35,0,0,True,Own type
+HGSS,Charmander,Charizard,42,MOVE_FLAMETHROWER,Flamethrower,Fire,Special,95,100,15,4,0,True,Own type
+HGSS,Charmander,Charizard,49,MOVE_FIRE_SPIN,Fire Spin,Fire,Special,15,70,15,42,0,True,Own type
+HGSS,Charmander,Charizard,59,MOVE_HEAT_WAVE,Heat Wave,Fire,Special,100,90,10,4,0,True,Own type
+HGSS,Charmander,Charizard,66,MOVE_FLARE_BLITZ,Flare Blitz,Fire,Physical,120,100,15,253,0,True,Own type
+HGSS,Squirtle,Squirtle,1,MOVE_TACKLE,Tackle,Normal,Physical,35,95,35,0,0,True,Normal
+HGSS,Squirtle,Squirtle,4,MOVE_TAIL_WHIP,Tail Whip,Normal,Status,0,100,30,19,0,True,Normal
+HGSS,Squirtle,Squirtle,7,MOVE_BUBBLE,Bubble,Water,Special,20,100,30,70,0,True,Own type
+HGSS,Squirtle,Squirtle,10,MOVE_WITHDRAW,Withdraw,Water,Status,0,0,40,11,0,True,Own type
+HGSS,Squirtle,Squirtle,13,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,0,0,True,Own type
+HGSS,Squirtle,Squirtle,16,MOVE_BITE,Bite,Dark,Physical,60,100,25,31,0,True,Other type
+HGSS,Squirtle,Wartortle,20,MOVE_RAPID_SPIN,Rapid Spin,Normal,Physical,20,100,40,129,0,True,Normal
+HGSS,Squirtle,Wartortle,24,MOVE_PROTECT,Protect,Normal,Status,0,0,10,111,3,True,Normal
+HGSS,Squirtle,Wartortle,28,MOVE_WATER_PULSE,Water Pulse,Water,Special,60,100,20,76,0,True,Own type
+HGSS,Squirtle,Wartortle,32,MOVE_AQUA_TAIL,Aqua Tail,Water,Physical,90,90,10,0,0,True,Own type
+HGSS,Squirtle,Wartortle,36,MOVE_SKULL_BASH,Skull Bash,Normal,Physical,100,100,15,145,0,True,Normal
+HGSS,Squirtle,Blastoise,39,MOVE_SKULL_BASH,Skull Bash,Normal,Physical,100,100,15,145,0,True,Normal
+HGSS,Squirtle,Blastoise,46,MOVE_IRON_DEFENSE,Iron Defense,Steel,Status,0,0,15,51,0,True,Other type
+HGSS,Squirtle,Blastoise,53,MOVE_RAIN_DANCE,Rain Dance,Water,Status,0,0,5,136,0,True,Own type
+HGSS,Squirtle,Blastoise,60,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,120,80,5,0,0,True,Own type
+HGSS,Chikorita,Chikorita,1,MOVE_TACKLE,Tackle,Normal,Physical,35,95,35,0,0,True,Normal
+HGSS,Chikorita,Chikorita,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,18,0,True,Normal
+HGSS,Chikorita,Chikorita,6,MOVE_RAZOR_LEAF,Razor Leaf,Grass,Physical,55,95,25,43,0,True,Own type
+HGSS,Chikorita,Chikorita,9,MOVE_POISON_POWDER,Poison Powder,Poison,Status,0,75,35,66,0,True,Other type
+HGSS,Chikorita,Chikorita,12,MOVE_SYNTHESIS,Synthesis,Grass,Status,0,0,5,132,0,True,Own type
+HGSS,Chikorita,Bayleef,18,MOVE_REFLECT,Reflect,Psychic,Status,0,0,20,65,0,True,Other type
+HGSS,Chikorita,Bayleef,22,MOVE_MAGICAL_LEAF,Magical Leaf,Grass,Special,60,0,20,17,0,True,Own type
+HGSS,Chikorita,Bayleef,26,MOVE_NATURAL_GIFT,Natural Gift,Normal,Physical,1,100,15,222,0,True,Normal
+HGSS,Chikorita,Bayleef,32,MOVE_SWEET_SCENT,Sweet Scent,Normal,Status,0,100,20,24,0,True,Normal
+HGSS,Chikorita,Meganium,32,MOVE_PETAL_DANCE,Petal Dance,Grass,Special,90,100,20,27,0,True,Own type
+HGSS,Chikorita,Meganium,34,MOVE_SWEET_SCENT,Sweet Scent,Normal,Status,0,100,20,24,0,True,Normal
+HGSS,Chikorita,Meganium,40,MOVE_LIGHT_SCREEN,Light Screen,Psychic,Status,0,0,30,35,0,True,Other type
+HGSS,Chikorita,Meganium,46,MOVE_BODY_SLAM,Body Slam,Normal,Physical,85,100,15,6,0,True,Normal
+HGSS,Chikorita,Meganium,54,MOVE_SAFEGUARD,Safeguard,Normal,Status,0,0,25,124,0,True,Normal
+HGSS,Chikorita,Meganium,60,MOVE_AROMATHERAPY,Aromatherapy,Grass,Status,0,0,5,102,0,True,Own type
+HGSS,Chikorita,Meganium,66,MOVE_SOLAR_BEAM,Solar Beam,Grass,Special,120,100,10,151,0,True,Own type
+HGSS,Cyndaquil,Cyndaquil,1,MOVE_TACKLE,Tackle,Normal,Physical,35,95,35,0,0,True,Normal
+HGSS,Cyndaquil,Cyndaquil,1,MOVE_LEER,Leer,Normal,Status,0,100,30,19,0,True,Normal
+HGSS,Cyndaquil,Cyndaquil,6,MOVE_SMOKESCREEN,Smokescreen,Normal,Status,0,100,20,23,0,True,Normal
+HGSS,Cyndaquil,Cyndaquil,10,MOVE_EMBER,Ember,Fire,Special,40,100,25,4,0,True,Own type
+HGSS,Cyndaquil,Cyndaquil,13,MOVE_QUICK_ATTACK,Quick Attack,Normal,Physical,40,100,30,103,1,True,Normal
+HGSS,Cyndaquil,Quilava,20,MOVE_FLAME_WHEEL,Flame Wheel,Fire,Physical,60,100,25,125,0,True,Own type
+HGSS,Cyndaquil,Quilava,24,MOVE_DEFENSE_CURL,Defense Curl,Normal,Status,0,0,40,156,0,True,Normal
+HGSS,Cyndaquil,Quilava,31,MOVE_SWIFT,Swift,Normal,Special,60,0,20,17,0,True,Normal
+HGSS,Cyndaquil,Quilava,35,MOVE_LAVA_PLUME,Lava Plume,Fire,Special,80,100,15,4,0,True,Own type
+HGSS,Cyndaquil,Typhlosion,42,MOVE_FLAMETHROWER,Flamethrower,Fire,Special,95,100,15,4,0,True,Own type
+HGSS,Cyndaquil,Typhlosion,46,MOVE_ROLLOUT,Rollout,Rock,Physical,30,90,20,117,0,True,Other type
+HGSS,Cyndaquil,Typhlosion,53,MOVE_DOUBLE_EDGE,Double-Edge,Normal,Physical,120,100,15,198,0,True,Normal
+HGSS,Cyndaquil,Typhlosion,57,MOVE_ERUPTION,Eruption,Fire,Special,150,100,5,190,0,True,Own type
+HGSS,Totodile,Totodile,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,0,0,True,Normal
+HGSS,Totodile,Totodile,1,MOVE_LEER,Leer,Normal,Status,0,100,30,19,0,True,Normal
+HGSS,Totodile,Totodile,6,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,0,0,True,Own type
+HGSS,Totodile,Totodile,8,MOVE_RAGE,Rage,Normal,Physical,20,100,20,81,0,True,Normal
+HGSS,Totodile,Totodile,13,MOVE_BITE,Bite,Dark,Physical,60,100,25,31,0,True,Other type
+HGSS,Totodile,Totodile,15,MOVE_SCARY_FACE,Scary Face,Normal,Status,0,90,10,60,0,True,Normal
+HGSS,Totodile,Croconaw,21,MOVE_ICE_FANG,Ice Fang,Ice,Physical,65,95,15,274,0,True,Other type
+HGSS,Totodile,Croconaw,24,MOVE_FLAIL,Flail,Normal,Physical,1,100,15,99,0,True,Normal
+HGSS,Totodile,Croconaw,30,MOVE_CRUNCH,Crunch,Dark,Physical,80,100,15,69,0,True,Other type
+HGSS,Totodile,Feraligatr,30,MOVE_AGILITY,Agility,Psychic,Status,0,0,30,52,0,True,Other type
+HGSS,Totodile,Feraligatr,32,MOVE_CRUNCH,Crunch,Dark,Physical,80,100,15,69,0,True,Other type
+HGSS,Totodile,Feraligatr,37,MOVE_SLASH,Slash,Normal,Physical,70,100,20,43,0,True,Normal
+HGSS,Totodile,Feraligatr,45,MOVE_SCREECH,Screech,Normal,Status,0,85,40,59,0,True,Normal
+HGSS,Totodile,Feraligatr,50,MOVE_THRASH,Thrash,Normal,Physical,90,100,20,27,0,True,Normal
+HGSS,Totodile,Feraligatr,58,MOVE_AQUA_TAIL,Aqua Tail,Water,Physical,90,90,10,0,0,True,Own type
+HGSS,Totodile,Feraligatr,63,MOVE_SUPERPOWER,Superpower,Fighting,Physical,120,100,5,182,0,True,Other type
+HGSS,Totodile,Feraligatr,71,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,120,80,5,0,0,True,Own type
+HGSS,Treecko,Treecko,1,MOVE_POUND,Pound,Normal,Physical,40,100,35,0,0,True,Normal
+HGSS,Treecko,Treecko,1,MOVE_LEER,Leer,Normal,Status,0,100,30,19,0,True,Normal
+HGSS,Treecko,Treecko,6,MOVE_ABSORB,Absorb,Grass,Special,20,100,25,3,0,True,Own type
+HGSS,Treecko,Treecko,11,MOVE_QUICK_ATTACK,Quick Attack,Normal,Physical,40,100,30,103,1,True,Normal
+HGSS,Treecko,Treecko,16,MOVE_PURSUIT,Pursuit,Dark,Physical,40,100,20,128,0,True,Other type
+HGSS,Treecko,Grovyle,16,MOVE_FURY_CUTTER,Fury Cutter,Bug,Physical,10,95,20,119,0,True,Other type
+HGSS,Treecko,Grovyle,17,MOVE_PURSUIT,Pursuit,Dark,Physical,40,100,20,128,0,True,Other type
+HGSS,Treecko,Grovyle,23,MOVE_SCREECH,Screech,Normal,Status,0,85,40,59,0,True,Normal
+HGSS,Treecko,Grovyle,29,MOVE_LEAF_BLADE,Leaf Blade,Grass,Physical,90,100,15,43,0,True,Own type
+HGSS,Treecko,Grovyle,35,MOVE_AGILITY,Agility,Psychic,Status,0,0,30,52,0,True,Other type
+HGSS,Treecko,Sceptile,43,MOVE_SLAM,Slam,Normal,Physical,80,75,20,0,0,True,Normal
+HGSS,Treecko,Sceptile,51,MOVE_DETECT,Detect,Fighting,Status,0,0,5,111,3,True,Other type
+HGSS,Treecko,Sceptile,59,MOVE_FALSE_SWIPE,False Swipe,Normal,Physical,40,100,40,101,0,True,Normal
+HGSS,Treecko,Sceptile,67,MOVE_LEAF_STORM,Leaf Storm,Grass,Special,140,90,5,204,0,True,Own type
+HGSS,Torchic,Torchic,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,0,0,True,Normal
+HGSS,Torchic,Torchic,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,18,0,True,Normal
+HGSS,Torchic,Torchic,7,MOVE_FOCUS_ENERGY,Focus Energy,Normal,Status,0,0,30,47,0,True,Normal
+HGSS,Torchic,Torchic,10,MOVE_EMBER,Ember,Fire,Special,40,100,25,4,0,True,Own type
+HGSS,Torchic,Torchic,16,MOVE_PECK,Peck,Flying,Physical,35,100,35,0,0,True,Other type
+HGSS,Torchic,Combusken,16,MOVE_DOUBLE_KICK,Double Kick,Fighting,Physical,30,100,30,44,0,True,Own type
+HGSS,Torchic,Combusken,17,MOVE_PECK,Peck,Flying,Physical,35,100,35,0,0,True,Other type
+HGSS,Torchic,Combusken,21,MOVE_SAND_ATTACK,Sand Attack,Ground,Status,0,100,15,23,0,True,Other type
+HGSS,Torchic,Combusken,28,MOVE_BULK_UP,Bulk Up,Fighting,Status,0,0,20,208,0,True,Own type
+HGSS,Torchic,Combusken,32,MOVE_QUICK_ATTACK,Quick Attack,Normal,Physical,40,100,30,103,1,True,Normal
+HGSS,Torchic,Blaziken,36,MOVE_BLAZE_KICK,Blaze Kick,Fire,Physical,85,90,10,200,0,True,Own type
+HGSS,Torchic,Blaziken,42,MOVE_SLASH,Slash,Normal,Physical,70,100,20,43,0,True,Normal
+HGSS,Torchic,Blaziken,49,MOVE_BRAVE_BIRD,Brave Bird,Flying,Physical,120,100,15,198,0,True,Other type
+HGSS,Torchic,Blaziken,59,MOVE_SKY_UPPERCUT,Sky Uppercut,Fighting,Physical,85,90,15,207,0,True,Own type
+HGSS,Torchic,Blaziken,66,MOVE_FLARE_BLITZ,Flare Blitz,Fire,Physical,120,100,15,253,0,True,Own type
+HGSS,Mudkip,Mudkip,1,MOVE_TACKLE,Tackle,Normal,Physical,35,95,35,0,0,True,Normal
+HGSS,Mudkip,Mudkip,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,18,0,True,Normal
+HGSS,Mudkip,Mudkip,6,MOVE_MUD_SLAP,Mud-Slap,Ground,Special,20,100,10,73,0,True,Other type
+HGSS,Mudkip,Mudkip,10,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,0,0,True,Own type
+HGSS,Mudkip,Mudkip,15,MOVE_BIDE,Bide,Normal,Physical,1,0,10,26,1,True,Normal
+HGSS,Mudkip,Marshtomp,16,MOVE_MUD_SHOT,Mud Shot,Ground,Special,55,95,15,70,0,True,Own type
+HGSS,Mudkip,Marshtomp,20,MOVE_FORESIGHT,Foresight,Normal,Status,0,0,40,113,0,True,Normal
+HGSS,Mudkip,Marshtomp,25,MOVE_MUD_BOMB,Mud Bomb,Ground,Special,65,85,10,73,0,True,Own type
+HGSS,Mudkip,Marshtomp,31,MOVE_TAKE_DOWN,Take Down,Normal,Physical,90,85,20,48,0,True,Normal
+HGSS,Mudkip,Swampert,39,MOVE_MUDDY_WATER,Muddy Water,Water,Special,95,85,10,73,0,True,Own type
+HGSS,Mudkip,Swampert,46,MOVE_PROTECT,Protect,Normal,Status,0,0,10,111,3,True,Normal
+HGSS,Mudkip,Swampert,52,MOVE_EARTHQUAKE,Earthquake,Ground,Physical,100,100,10,147,0,True,Own type
+HGSS,Mudkip,Swampert,61,MOVE_ENDEAVOR,Endeavor,Normal,Physical,1,100,5,189,0,True,Normal
+HGSS,Mudkip,Swampert,69,MOVE_HAMMER_ARM,Hammer Arm,Fighting,Physical,100,90,10,218,0,True,Other type
+HGSS,Turtwig,Turtwig,1,MOVE_TACKLE,Tackle,Normal,Physical,35,95,35,0,0,True,Normal
+HGSS,Turtwig,Turtwig,5,MOVE_WITHDRAW,Withdraw,Water,Status,0,0,40,11,0,True,Other type
+HGSS,Turtwig,Turtwig,9,MOVE_ABSORB,Absorb,Grass,Special,20,100,25,3,0,True,Own type
+HGSS,Turtwig,Turtwig,13,MOVE_RAZOR_LEAF,Razor Leaf,Grass,Physical,55,95,25,43,0,True,Own type
+HGSS,Turtwig,Turtwig,17,MOVE_CURSE,Curse,Unknown,Status,0,0,10,109,0,True,Other type
+HGSS,Turtwig,Grotle,22,MOVE_BITE,Bite,Dark,Physical,60,100,25,31,0,True,Other type
+HGSS,Turtwig,Grotle,27,MOVE_MEGA_DRAIN,Mega Drain,Grass,Special,40,100,15,3,0,True,Own type
+HGSS,Turtwig,Grotle,32,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,84,0,True,Own type
+HGSS,Turtwig,Torterra,32,MOVE_EARTHQUAKE,Earthquake,Ground,Physical,100,100,10,147,0,True,Own type
+HGSS,Turtwig,Torterra,33,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,84,0,True,Own type
+HGSS,Turtwig,Torterra,39,MOVE_SYNTHESIS,Synthesis,Grass,Status,0,0,5,132,0,True,Own type
+HGSS,Turtwig,Torterra,45,MOVE_CRUNCH,Crunch,Dark,Physical,80,100,15,69,0,True,Other type
+HGSS,Turtwig,Torterra,51,MOVE_GIGA_DRAIN,Giga Drain,Grass,Special,60,100,10,3,0,True,Own type
+HGSS,Turtwig,Torterra,57,MOVE_LEAF_STORM,Leaf Storm,Grass,Special,140,90,5,204,0,True,Own type
+HGSS,Chimchar,Chimchar,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,0,0,True,Normal
+HGSS,Chimchar,Chimchar,1,MOVE_LEER,Leer,Normal,Status,0,100,30,19,0,True,Normal
+HGSS,Chimchar,Chimchar,7,MOVE_EMBER,Ember,Fire,Special,40,100,25,4,0,True,Own type
+HGSS,Chimchar,Chimchar,9,MOVE_TAUNT,Taunt,Dark,Status,0,100,20,175,0,True,Other type
+HGSS,Chimchar,Monferno,14,MOVE_MACH_PUNCH,Mach Punch,Fighting,Physical,40,100,30,103,1,True,Own type
+HGSS,Chimchar,Monferno,16,MOVE_FURY_SWIPES,Fury Swipes,Normal,Physical,18,80,15,29,0,True,Normal
+HGSS,Chimchar,Monferno,19,MOVE_FLAME_WHEEL,Flame Wheel,Fire,Physical,60,100,25,125,0,True,Own type
+HGSS,Chimchar,Monferno,26,MOVE_FEINT,Feint,Normal,Physical,50,100,10,223,2,True,Normal
+HGSS,Chimchar,Monferno,29,MOVE_TORMENT,Torment,Dark,Status,0,100,15,165,0,True,Other type
+HGSS,Chimchar,Monferno,36,MOVE_CLOSE_COMBAT,Close Combat,Fighting,Physical,120,100,5,229,0,True,Own type
+HGSS,Chimchar,Infernape,41,MOVE_CLOSE_COMBAT,Close Combat,Fighting,Physical,120,100,5,229,0,True,Own type
+HGSS,Chimchar,Infernape,45,MOVE_FIRE_SPIN,Fire Spin,Fire,Special,15,70,15,42,0,True,Own type
+HGSS,Chimchar,Infernape,53,MOVE_CALM_MIND,Calm Mind,Psychic,Status,0,0,20,211,0,True,Other type
+HGSS,Chimchar,Infernape,57,MOVE_FLARE_BLITZ,Flare Blitz,Fire,Physical,120,100,15,253,0,True,Own type
+HGSS,Piplup,Piplup,1,MOVE_POUND,Pound,Normal,Physical,40,100,35,0,0,True,Normal
+HGSS,Piplup,Piplup,4,MOVE_GROWL,Growl,Normal,Status,0,100,40,18,0,True,Normal
+HGSS,Piplup,Piplup,8,MOVE_BUBBLE,Bubble,Water,Special,20,100,30,70,0,True,Own type
+HGSS,Piplup,Piplup,11,MOVE_WATER_SPORT,Water Sport,Water,Status,0,0,15,210,0,True,Own type
+HGSS,Piplup,Piplup,15,MOVE_PECK,Peck,Flying,Physical,35,100,35,0,0,True,Other type
+HGSS,Piplup,Prinplup,16,MOVE_METAL_CLAW,Metal Claw,Steel,Physical,50,95,35,139,0,True,Other type
+HGSS,Piplup,Prinplup,19,MOVE_BUBBLE_BEAM,Bubble Beam,Water,Special,65,100,20,70,0,True,Own type
+HGSS,Piplup,Prinplup,24,MOVE_BIDE,Bide,Normal,Physical,1,0,10,26,1,True,Normal
+HGSS,Piplup,Prinplup,28,MOVE_FURY_ATTACK,Fury Attack,Normal,Physical,15,85,20,29,0,True,Normal
+HGSS,Piplup,Prinplup,33,MOVE_BRINE,Brine,Water,Special,65,100,10,221,0,True,Own type
+HGSS,Piplup,Empoleon,36,MOVE_AQUA_JET,Aqua Jet,Water,Physical,40,100,20,103,1,True,Own type
+HGSS,Piplup,Empoleon,39,MOVE_WHIRLPOOL,Whirlpool,Water,Special,15,70,15,261,0,True,Own type
+HGSS,Piplup,Empoleon,46,MOVE_MIST,Mist,Ice,Status,0,0,30,46,0,True,Other type
+HGSS,Piplup,Empoleon,52,MOVE_DRILL_PECK,Drill Peck,Flying,Physical,80,100,20,0,0,True,Other type
+HGSS,Piplup,Empoleon,59,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,120,80,5,0,0,True,Own type
+Engine,Bulbasaur,Bulbasaur,1,MOVE_TACKLE,Tackle,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Bulbasaur,Bulbasaur,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,MOVE_EFFECT_ATK_DOWN,0,True,Normal
+Engine,Bulbasaur,Bulbasaur,3,MOVE_VINE_WHIP,Vine Whip,Grass,Physical,45,100,25,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Bulbasaur,Bulbasaur,6,MOVE_GROWTH,Growth,((Champions_Changes) ? (Grass) : (Normal)),Status,0,0,20,MOVE_EFFECT_SP_ATK_UP,0,True,Other type
+Engine,Bulbasaur,Bulbasaur,9,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,MOVE_EFFECT_STATUS_LEECH_SEED,0,True,Own type
+Engine,Bulbasaur,Bulbasaur,12,MOVE_RAZOR_LEAF,Razor Leaf,Grass,Physical,55,95,25,MOVE_EFFECT_HIGH_CRITICAL,0,True,Own type
+Engine,Bulbasaur,Bulbasaur,15,MOVE_POISON_POWDER,Poison Powder,Poison,Status,0,75,35,MOVE_EFFECT_STATUS_POISON,0,True,Own type
+Engine,Bulbasaur,Bulbasaur,15,MOVE_SLEEP_POWDER,Sleep Powder,Grass,Status,0,75,15,MOVE_EFFECT_STATUS_SLEEP,0,True,Own type
+Engine,Bulbasaur,Ivysaur,20,MOVE_SEED_BOMB,Seed Bomb,Grass,Physical,80,100,15,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Bulbasaur,Ivysaur,25,MOVE_TAKE_DOWN,Take Down,Normal,Physical,90,85,20,MOVE_EFFECT_RECOIL_QUARTER,0,True,Normal
+Engine,Bulbasaur,Ivysaur,30,MOVE_SWEET_SCENT,Sweet Scent,Normal,Status,0,100,20,MOVE_EFFECT_EVA_DOWN_2,0,True,Normal
+Engine,Bulbasaur,Venusaur,32,MOVE_PETAL_BLIZZARD,Petal Blizzard,Grass,Physical,90,100,15,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Bulbasaur,Venusaur,37,MOVE_SYNTHESIS,Synthesis,Grass,Status,0,0,5,MOVE_EFFECT_HEAL_HALF_DIFFERENT_IN_WEATHER,0,True,Own type
+Engine,Bulbasaur,Venusaur,44,MOVE_WORRY_SEED,Worry Seed,Grass,Status,0,100,10,MOVE_EFFECT_SET_ABILITY_TO_INSOMNIA,0,True,Own type
+Engine,Bulbasaur,Venusaur,51,MOVE_POWER_WHIP,Power Whip,Grass,Physical,120,85,10,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Bulbasaur,Venusaur,58,MOVE_SOLAR_BEAM,Solar Beam,Grass,Special,120,100,10,MOVE_EFFECT_CHARGE_TURN_SUN_SKIPS,0,True,Own type
+Engine,Charmander,Charmander,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Charmander,Charmander,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,MOVE_EFFECT_ATK_DOWN,0,True,Normal
+Engine,Charmander,Charmander,4,MOVE_EMBER,Ember,Fire,Special,40,100,25,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Charmander,Charmander,8,MOVE_SMOKESCREEN,Smokescreen,Normal,Status,0,100,20,MOVE_EFFECT_ACC_DOWN,0,True,Normal
+Engine,Charmander,Charmander,12,MOVE_DRAGON_BREATH,Dragon Breath,Dragon,Special,60,100,20,MOVE_EFFECT_PARALYZE_HIT,0,True,Other type
+Engine,Charmander,Charmeleon,19,MOVE_FIRE_FANG,Fire Fang,Fire,Physical,65,95,15,MOVE_EFFECT_FLINCH_BURN_HIT,0,True,Own type
+Engine,Charmander,Charmeleon,24,MOVE_SLASH,Slash,Normal,Physical,80,100,20,MOVE_EFFECT_HIGH_CRITICAL,0,True,Normal
+Engine,Charmander,Charmeleon,30,MOVE_FLAMETHROWER,Flamethrower,Fire,Special,90,100,15,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Charmander,Charizard,36,MOVE_AIR_SLASH,Air Slash,Flying,Special,75,95,15,MOVE_EFFECT_FLINCH_HIT,0,True,Own type
+Engine,Charmander,Charizard,39,MOVE_SCARY_FACE,Scary Face,Normal,Status,0,100,10,MOVE_EFFECT_SPEED_DOWN_2,0,True,Normal
+Engine,Charmander,Charizard,46,MOVE_FIRE_SPIN,Fire Spin,Fire,Special,35,85,15,MOVE_EFFECT_BIND_HIT,0,True,Own type
+Engine,Charmander,Charizard,54,MOVE_INFERNO,Inferno,Fire,Special,100,50,5,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Charmander,Charizard,62,MOVE_FLARE_BLITZ,Flare Blitz,Fire,Physical,120,100,15,MOVE_EFFECT_RECOIL_BURN_HIT,0,True,Own type
+Engine,Squirtle,Squirtle,1,MOVE_TACKLE,Tackle,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Squirtle,Squirtle,1,MOVE_TAIL_WHIP,Tail Whip,Normal,Status,0,100,30,MOVE_EFFECT_DEF_DOWN,0,True,Normal
+Engine,Squirtle,Squirtle,3,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Squirtle,Squirtle,6,MOVE_WITHDRAW,Withdraw,Water,Status,0,0,40,MOVE_EFFECT_DEF_UP,0,True,Own type
+Engine,Squirtle,Squirtle,9,MOVE_RAPID_SPIN,Rapid Spin,Normal,Physical,50,100,40,MOVE_EFFECT_REMOVE_HAZARDS_AND_BINDING,0,True,Normal
+Engine,Squirtle,Squirtle,12,MOVE_BITE,Bite,Dark,Physical,60,100,25,MOVE_EFFECT_FLINCH_HIT,0,True,Other type
+Engine,Squirtle,Squirtle,15,MOVE_WATER_PULSE,Water Pulse,Water,Special,60,100,20,MOVE_EFFECT_CONFUSE_HIT,0,True,Own type
+Engine,Squirtle,Wartortle,20,MOVE_PROTECT,Protect,Normal,Status,0,0,10,MOVE_EFFECT_PROTECT,4,True,Normal
+Engine,Squirtle,Wartortle,25,MOVE_RAIN_DANCE,Rain Dance,Water,Status,0,0,5,MOVE_EFFECT_WEATHER_RAIN,0,True,Own type
+Engine,Squirtle,Wartortle,30,MOVE_AQUA_TAIL,Aqua Tail,Water,Physical,90,90,10,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Squirtle,Wartortle,35,MOVE_SHELL_SMASH,Shell Smash,Normal,Status,0,0,15,MOVE_EFFECT_ATK_SP_ATK_SPEED_UP_2_DEF_SP_DEF_DOWN,0,True,Normal
+Engine,Squirtle,Blastoise,36,MOVE_FLASH_CANNON,Flash Cannon,Steel,Special,80,100,10,MOVE_EFFECT_LOWER_SP_DEF_HIT,0,True,Other type
+Engine,Squirtle,Blastoise,42,MOVE_IRON_DEFENSE,Iron Defense,Steel,Status,0,0,15,MOVE_EFFECT_DEF_UP_2,0,True,Other type
+Engine,Squirtle,Blastoise,49,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,110,80,5,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Squirtle,Blastoise,56,MOVE_WAVE_CRASH,Wave Crash,Water,Physical,120,100,10,MOVE_EFFECT_RECOIL_THIRD,0,True,Own type
+Engine,Chikorita,Chikorita,1,MOVE_TACKLE,Tackle,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Chikorita,Chikorita,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,MOVE_EFFECT_ATK_DOWN,0,True,Normal
+Engine,Chikorita,Chikorita,6,MOVE_RAZOR_LEAF,Razor Leaf,Grass,Physical,55,95,25,MOVE_EFFECT_HIGH_CRITICAL,0,True,Own type
+Engine,Chikorita,Chikorita,9,MOVE_POISON_POWDER,Poison Powder,Poison,Status,0,75,35,MOVE_EFFECT_STATUS_POISON,0,True,Other type
+Engine,Chikorita,Chikorita,12,MOVE_SYNTHESIS,Synthesis,Grass,Status,0,0,5,MOVE_EFFECT_HEAL_HALF_DIFFERENT_IN_WEATHER,0,True,Own type
+Engine,Chikorita,Bayleef,18,MOVE_REFLECT,Reflect,Psychic,Status,0,0,20,MOVE_EFFECT_SET_REFLECT,0,True,Other type
+Engine,Chikorita,Bayleef,22,MOVE_MAGICAL_LEAF,Magical Leaf,Grass,Special,60,0,20,MOVE_EFFECT_BYPASS_ACCURACY,0,True,Own type
+Engine,Chikorita,Bayleef,26,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,MOVE_EFFECT_STATUS_LEECH_SEED,0,True,Own type
+Engine,Chikorita,Bayleef,32,MOVE_SWEET_SCENT,Sweet Scent,Normal,Status,0,100,20,MOVE_EFFECT_EVA_DOWN_2,0,True,Normal
+Engine,Chikorita,Meganium,32,MOVE_PETAL_DANCE,Petal Dance,Grass,Special,120,100,10,MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF,0,True,Own type
+Engine,Chikorita,Meganium,34,MOVE_SWEET_SCENT,Sweet Scent,Normal,Status,0,100,20,MOVE_EFFECT_EVA_DOWN_2,0,True,Normal
+Engine,Chikorita,Meganium,40,MOVE_LIGHT_SCREEN,Light Screen,Psychic,Status,0,0,30,MOVE_EFFECT_SET_LIGHT_SCREEN,0,True,Other type
+Engine,Chikorita,Meganium,46,MOVE_BODY_SLAM,Body Slam,Normal,Physical,85,100,15,MOVE_EFFECT_PARALYZE_HIT,0,True,Normal
+Engine,Chikorita,Meganium,54,MOVE_SAFEGUARD,Safeguard,Normal,Status,0,0,25,MOVE_EFFECT_PREVENT_STATUS,0,True,Normal
+Engine,Chikorita,Meganium,60,MOVE_GIGA_DRAIN,Giga Drain,Grass,Special,75,100,10,MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT,0,True,Own type
+Engine,Chikorita,Meganium,65,MOVE_SOLAR_BEAM,Solar Beam,Grass,Special,120,100,10,MOVE_EFFECT_CHARGE_TURN_SUN_SKIPS,0,True,Own type
+Engine,Cyndaquil,Cyndaquil,1,MOVE_TACKLE,Tackle,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Cyndaquil,Cyndaquil,1,MOVE_LEER,Leer,Normal,Status,0,100,30,MOVE_EFFECT_DEF_DOWN,0,True,Normal
+Engine,Cyndaquil,Cyndaquil,6,MOVE_SMOKESCREEN,Smokescreen,Normal,Status,0,100,20,MOVE_EFFECT_ACC_DOWN,0,True,Normal
+Engine,Cyndaquil,Cyndaquil,10,MOVE_EMBER,Ember,Fire,Special,40,100,25,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Cyndaquil,Cyndaquil,13,MOVE_QUICK_ATTACK,Quick Attack,Normal,Physical,40,100,30,MOVE_EFFECT_PRIORITY_1,1,True,Normal
+Engine,Cyndaquil,Quilava,20,MOVE_FLAME_WHEEL,Flame Wheel,Fire,Physical,60,100,25,MOVE_EFFECT_THAW_AND_BURN_HIT,0,True,Own type
+Engine,Cyndaquil,Quilava,24,MOVE_DEFENSE_CURL,Defense Curl,Normal,Status,0,0,40,MOVE_EFFECT_DEF_UP_DOUBLE_ROLLOUT_POWER,0,True,Normal
+Engine,Cyndaquil,Quilava,31,MOVE_SWIFT,Swift,Normal,Special,60,0,20,MOVE_EFFECT_BYPASS_ACCURACY,0,True,Normal
+Engine,Cyndaquil,Quilava,35,MOVE_FLAME_CHARGE,Flame Charge,Fire,Physical,50,100,20,MOVE_EFFECT_RAISE_SPEED_HIT,0,True,Own type
+Engine,Cyndaquil,Typhlosion,43,MOVE_LAVA_PLUME,Lava Plume,Fire,Special,80,100,15,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Cyndaquil,Typhlosion,48,MOVE_FLAMETHROWER,Flamethrower,Fire,Special,90,100,15,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Cyndaquil,Typhlosion,56,MOVE_INFERNO,Inferno,Fire,Special,100,50,5,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Cyndaquil,Typhlosion,61,MOVE_ROLLOUT,Rollout,Rock,Physical,30,90,20,MOVE_EFFECT_DOUBLE_POWER_EACH_TURN_LOCK_INTO,0,True,Other type
+Engine,Cyndaquil,Typhlosion,74,MOVE_OVERHEAT,Overheat,Fire,Special,130,90,5,MOVE_EFFECT_USER_SP_ATK_DOWN_2,0,True,Own type
+Engine,Totodile,Totodile,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Totodile,Totodile,1,MOVE_LEER,Leer,Normal,Status,0,100,30,MOVE_EFFECT_DEF_DOWN,0,True,Normal
+Engine,Totodile,Totodile,6,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Totodile,Totodile,9,MOVE_BITE,Bite,Dark,Physical,60,100,25,MOVE_EFFECT_FLINCH_HIT,0,True,Other type
+Engine,Totodile,Totodile,13,MOVE_SCARY_FACE,Scary Face,Normal,Status,0,100,10,MOVE_EFFECT_SPEED_DOWN_2,0,True,Normal
+Engine,Totodile,Croconaw,21,MOVE_ICE_FANG,Ice Fang,Ice,Physical,65,95,15,MOVE_EFFECT_FLINCH_FREEZE_HIT,0,True,Other type
+Engine,Totodile,Croconaw,24,MOVE_FLAIL,Flail,Normal,Physical,1,100,15,MOVE_EFFECT_INCREASE_POWER_WITH_LESS_HP,0,True,Normal
+Engine,Totodile,Croconaw,30,MOVE_CRUNCH,Crunch,Dark,Physical,80,100,15,MOVE_EFFECT_LOWER_DEFENSE_HIT,0,True,Other type
+Engine,Totodile,Feraligatr,32,MOVE_CRUNCH,Crunch,Dark,Physical,80,100,15,MOVE_EFFECT_LOWER_DEFENSE_HIT,0,True,Other type
+Engine,Totodile,Feraligatr,37,MOVE_SLASH,Slash,Normal,Physical,80,100,20,MOVE_EFFECT_HIGH_CRITICAL,0,True,Normal
+Engine,Totodile,Feraligatr,44,MOVE_SCREECH,Screech,Normal,Status,0,85,40,MOVE_EFFECT_DEF_DOWN_2,0,True,Normal
+Engine,Totodile,Feraligatr,51,MOVE_THRASH,Thrash,Normal,Physical,120,100,10,MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF,0,True,Normal
+Engine,Totodile,Feraligatr,59,MOVE_AQUA_TAIL,Aqua Tail,Water,Physical,90,90,10,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Totodile,Feraligatr,65,MOVE_SUPERPOWER,Superpower,Fighting,Physical,120,100,5,MOVE_EFFECT_USER_ATK_DEF_DOWN_HIT,0,True,Other type
+Engine,Totodile,Feraligatr,70,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,110,80,5,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Treecko,Treecko,1,MOVE_POUND,Pound,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Treecko,Treecko,1,MOVE_LEER,Leer,Normal,Status,0,100,30,MOVE_EFFECT_DEF_DOWN,0,True,Normal
+Engine,Treecko,Treecko,3,MOVE_LEAFAGE,Leafage,Grass,Physical,40,100,40,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Treecko,Treecko,6,MOVE_QUICK_ATTACK,Quick Attack,Normal,Physical,40,100,30,MOVE_EFFECT_PRIORITY_1,1,True,Normal
+Engine,Treecko,Treecko,9,MOVE_MEGA_DRAIN,Mega Drain,Grass,Special,40,100,15,MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT,0,True,Own type
+Engine,Treecko,Treecko,12,MOVE_DETECT,Detect,Fighting,Status,0,0,5,MOVE_EFFECT_PROTECT,4,True,Other type
+Engine,Treecko,Treecko,15,MOVE_QUICK_GUARD,Quick Guard,Fighting,Status,0,0,15,MOVE_EFFECT_PROTECT_USER_SIDE,3,True,Other type
+Engine,Treecko,Grovyle,20,MOVE_ASSURANCE,Assurance,Dark,Physical,60,100,10,MOVE_EFFECT_DOUBLE_POWER_IF_TARGET_HIT,0,True,Other type
+Engine,Treecko,Grovyle,25,MOVE_GIGA_DRAIN,Giga Drain,Grass,Special,75,100,10,MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT,0,True,Own type
+Engine,Treecko,Grovyle,30,MOVE_SLAM,Slam,Normal,Physical,80,75,20,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Treecko,Grovyle,35,MOVE_DOUBLE_TEAM,Double Team,Normal,Status,0,0,15,MOVE_EFFECT_EVA_UP,0,True,Normal
+Engine,Treecko,Sceptile,36,MOVE_LEAF_BLADE,Leaf Blade,Grass,Physical,90,100,15,MOVE_EFFECT_HIGH_CRITICAL,0,True,Own type
+Engine,Treecko,Sceptile,42,MOVE_SCREECH,Screech,Normal,Status,0,85,40,MOVE_EFFECT_DEF_DOWN_2,0,True,Normal
+Engine,Treecko,Sceptile,49,MOVE_ENDEAVOR,Endeavor,Normal,Physical,1,100,5,MOVE_EFFECT_SET_HP_EQUAL_TO_USER,0,True,Normal
+Engine,Treecko,Sceptile,56,MOVE_LEAF_STORM,Leaf Storm,Grass,Special,130,90,5,MOVE_EFFECT_USER_SP_ATK_DOWN_2,0,True,Own type
+Engine,Torchic,Torchic,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Torchic,Torchic,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,MOVE_EFFECT_ATK_DOWN,0,True,Normal
+Engine,Torchic,Torchic,3,MOVE_EMBER,Ember,Fire,Special,40,100,25,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Torchic,Torchic,6,MOVE_QUICK_ATTACK,Quick Attack,Normal,Physical,40,100,30,MOVE_EFFECT_PRIORITY_1,1,True,Normal
+Engine,Torchic,Torchic,9,MOVE_FLAME_CHARGE,Flame Charge,Fire,Physical,50,100,20,MOVE_EFFECT_RAISE_SPEED_HIT,0,True,Own type
+Engine,Torchic,Torchic,12,MOVE_DETECT,Detect,Fighting,Status,0,0,5,MOVE_EFFECT_PROTECT,4,True,Other type
+Engine,Torchic,Torchic,15,MOVE_SAND_ATTACK,Sand Attack,Ground,Status,0,100,15,MOVE_EFFECT_ACC_DOWN,0,True,Other type
+Engine,Torchic,Combusken,16,MOVE_DOUBLE_KICK,Double Kick,Fighting,Physical,30,100,30,MOVE_EFFECT_HIT_TWICE,0,True,Own type
+Engine,Torchic,Combusken,20,MOVE_AERIAL_ACE,Aerial Ace,Flying,Physical,60,0,20,MOVE_EFFECT_BYPASS_ACCURACY,0,True,Other type
+Engine,Torchic,Combusken,25,MOVE_SLASH,Slash,Normal,Physical,80,100,20,MOVE_EFFECT_HIGH_CRITICAL,0,True,Normal
+Engine,Torchic,Combusken,30,MOVE_BOUNCE,Bounce,Flying,Physical,85,85,5,MOVE_EFFECT_BOUNCE,0,True,Other type
+Engine,Torchic,Combusken,35,MOVE_FOCUS_ENERGY,Focus Energy,Normal,Status,0,0,30,MOVE_EFFECT_CRIT_UP_2,0,True,Normal
+Engine,Torchic,Blaziken,36,MOVE_BLAZE_KICK,Blaze Kick,Fire,Physical,85,90,10,MOVE_EFFECT_HIGH_CRITICAL_BURN_HIT,0,True,Own type
+Engine,Torchic,Blaziken,42,MOVE_BULK_UP,Bulk Up,Fighting,Status,0,0,20,MOVE_EFFECT_ATK_DEF_UP,0,True,Own type
+Engine,Torchic,Blaziken,49,MOVE_REVERSAL,Reversal,Fighting,Physical,1,100,15,MOVE_EFFECT_INCREASE_POWER_WITH_LESS_HP,0,True,Own type
+Engine,Torchic,Blaziken,56,MOVE_FLARE_BLITZ,Flare Blitz,Fire,Physical,120,100,15,MOVE_EFFECT_RECOIL_BURN_HIT,0,True,Own type
+Engine,Torchic,Blaziken,63,MOVE_BRAVE_BIRD,Brave Bird,Flying,Physical,120,100,15,MOVE_EFFECT_RECOIL_THIRD,0,True,Other type
+Engine,Mudkip,Mudkip,1,MOVE_TACKLE,Tackle,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Mudkip,Mudkip,1,MOVE_GROWL,Growl,Normal,Status,0,100,40,MOVE_EFFECT_ATK_DOWN,0,True,Normal
+Engine,Mudkip,Mudkip,3,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Mudkip,Mudkip,6,MOVE_ROCK_SMASH,Rock Smash,Fighting,Physical,40,100,15,MOVE_EFFECT_LOWER_DEFENSE_HIT,0,True,Other type
+Engine,Mudkip,Mudkip,9,MOVE_ROCK_THROW,Rock Throw,Rock,Physical,50,90,15,MOVE_EFFECT_HIT,0,True,Other type
+Engine,Mudkip,Mudkip,12,MOVE_PROTECT,Protect,Normal,Status,0,0,10,MOVE_EFFECT_PROTECT,4,True,Normal
+Engine,Mudkip,Mudkip,15,MOVE_SUPERSONIC,Supersonic,Normal,Status,0,55,20,MOVE_EFFECT_STATUS_CONFUSE,0,True,Normal
+Engine,Mudkip,Marshtomp,16,MOVE_MUD_SHOT,Mud Shot,Ground,Special,55,95,15,MOVE_EFFECT_LOWER_SPEED_HIT,0,True,Own type
+Engine,Mudkip,Marshtomp,20,MOVE_WATER_PULSE,Water Pulse,Water,Special,60,100,20,MOVE_EFFECT_CONFUSE_HIT,0,True,Own type
+Engine,Mudkip,Marshtomp,25,MOVE_ROCK_SLIDE,Rock Slide,Rock,Physical,75,90,10,MOVE_EFFECT_FLINCH_HIT,0,True,Other type
+Engine,Mudkip,Marshtomp,30,MOVE_TAKE_DOWN,Take Down,Normal,Physical,90,85,20,MOVE_EFFECT_RECOIL_QUARTER,0,True,Normal
+Engine,Mudkip,Marshtomp,35,MOVE_AMNESIA,Amnesia,Psychic,Status,0,0,20,MOVE_EFFECT_SP_DEF_UP_2,0,True,Other type
+Engine,Mudkip,Swampert,42,MOVE_MUDDY_WATER,Muddy Water,Water,Special,90,85,10,MOVE_EFFECT_LOWER_ACCURACY_HIT,0,True,Own type
+Engine,Mudkip,Swampert,49,MOVE_SCREECH,Screech,Normal,Status,0,85,40,MOVE_EFFECT_DEF_DOWN_2,0,True,Normal
+Engine,Mudkip,Swampert,56,MOVE_ENDEAVOR,Endeavor,Normal,Physical,1,100,5,MOVE_EFFECT_SET_HP_EQUAL_TO_USER,0,True,Normal
+Engine,Mudkip,Swampert,63,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,110,80,5,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Turtwig,Turtwig,1,MOVE_TACKLE,Tackle,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Turtwig,Turtwig,5,MOVE_WITHDRAW,Withdraw,Water,Status,0,0,40,MOVE_EFFECT_DEF_UP,0,True,Other type
+Engine,Turtwig,Turtwig,9,MOVE_ABSORB,Absorb,Grass,Special,20,100,25,MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT,0,True,Own type
+Engine,Turtwig,Turtwig,13,MOVE_RAZOR_LEAF,Razor Leaf,Grass,Physical,55,95,25,MOVE_EFFECT_HIGH_CRITICAL,0,True,Own type
+Engine,Turtwig,Turtwig,17,MOVE_CURSE,Curse,Ghost,Status,0,0,10,MOVE_EFFECT_CURSE,0,True,Other type
+Engine,Turtwig,Grotle,22,MOVE_BITE,Bite,Dark,Physical,60,100,25,MOVE_EFFECT_FLINCH_HIT,0,True,Other type
+Engine,Turtwig,Grotle,27,MOVE_MEGA_DRAIN,Mega Drain,Grass,Special,40,100,15,MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT,0,True,Own type
+Engine,Turtwig,Grotle,32,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,MOVE_EFFECT_STATUS_LEECH_SEED,0,True,Own type
+Engine,Turtwig,Torterra,32,MOVE_EARTHQUAKE,Earthquake,Ground,Physical,100,100,10,MOVE_EFFECT_DOUBLE_DAMAGE_DIG,0,True,Own type
+Engine,Turtwig,Torterra,33,MOVE_LEECH_SEED,Leech Seed,Grass,Status,0,90,10,MOVE_EFFECT_STATUS_LEECH_SEED,0,True,Own type
+Engine,Turtwig,Torterra,39,MOVE_SYNTHESIS,Synthesis,Grass,Status,0,0,5,MOVE_EFFECT_HEAL_HALF_DIFFERENT_IN_WEATHER,0,True,Own type
+Engine,Turtwig,Torterra,45,MOVE_CRUNCH,Crunch,Dark,Physical,80,100,15,MOVE_EFFECT_LOWER_DEFENSE_HIT,0,True,Other type
+Engine,Turtwig,Torterra,51,MOVE_GIGA_DRAIN,Giga Drain,Grass,Special,75,100,10,MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT,0,True,Own type
+Engine,Turtwig,Torterra,57,MOVE_LEAF_STORM,Leaf Storm,Grass,Special,130,90,5,MOVE_EFFECT_USER_SP_ATK_DOWN_2,0,True,Own type
+Engine,Turtwig,Torterra,63,MOVE_HEADLONG_RUSH,Headlong Rush,Ground,Physical,120,100,5,MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT,0,True,Own type
+Engine,Chimchar,Chimchar,1,MOVE_SCRATCH,Scratch,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Chimchar,Chimchar,1,MOVE_LEER,Leer,Normal,Status,0,100,30,MOVE_EFFECT_DEF_DOWN,0,True,Normal
+Engine,Chimchar,Chimchar,7,MOVE_EMBER,Ember,Fire,Special,40,100,25,MOVE_EFFECT_BURN_HIT,0,True,Own type
+Engine,Chimchar,Chimchar,9,MOVE_TAUNT,Taunt,Dark,Status,0,100,20,MOVE_EFFECT_TAUNT,0,True,Other type
+Engine,Chimchar,Monferno,14,MOVE_MACH_PUNCH,Mach Punch,Fighting,Physical,40,100,30,MOVE_EFFECT_PRIORITY_1,1,True,Own type
+Engine,Chimchar,Monferno,16,MOVE_FURY_SWIPES,Fury Swipes,Normal,Physical,18,80,15,MOVE_EFFECT_MULTI_HIT,0,True,Normal
+Engine,Chimchar,Monferno,19,MOVE_FLAME_WHEEL,Flame Wheel,Fire,Physical,60,100,25,MOVE_EFFECT_THAW_AND_BURN_HIT,0,True,Own type
+Engine,Chimchar,Monferno,26,MOVE_FEINT,Feint,Normal,Physical,30,100,10,MOVE_EFFECT_REMOVE_PROTECT,2,True,Normal
+Engine,Chimchar,Monferno,29,MOVE_TORMENT,Torment,Dark,Status,0,100,15,MOVE_EFFECT_TORMENT,0,True,Other type
+Engine,Chimchar,Monferno,36,MOVE_CLOSE_COMBAT,Close Combat,Fighting,Physical,120,100,5,MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT,0,True,Own type
+Engine,Chimchar,Infernape,42,MOVE_FIRE_SPIN,Fire Spin,Fire,Special,35,85,15,MOVE_EFFECT_BIND_HIT,0,True,Own type
+Engine,Chimchar,Infernape,47,MOVE_FLARE_BLITZ,Flare Blitz,Fire,Physical,120,100,15,MOVE_EFFECT_RECOIL_BURN_HIT,0,True,Own type
+Engine,Chimchar,Infernape,52,MOVE_ACROBATICS,Acrobatics,Flying,Physical,55,100,15,MOVE_EFFECT_DOUBLE_POWER_WITHOUT_ITEM,0,True,Other type
+Engine,Chimchar,Infernape,58,MOVE_CALM_MIND,Calm Mind,Psychic,Status,0,0,20,MOVE_EFFECT_SP_ATK_SP_DEF_UP,0,True,Other type
+Engine,Chimchar,Infernape,65,MOVE_RAGING_FURY,Raging Fury,Fire,Physical,120,100,10,MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF,0,True,Own type
+Engine,Piplup,Piplup,1,MOVE_POUND,Pound,Normal,Physical,40,100,35,MOVE_EFFECT_HIT,0,True,Normal
+Engine,Piplup,Piplup,4,MOVE_GROWL,Growl,Normal,Status,0,100,40,MOVE_EFFECT_ATK_DOWN,0,True,Normal
+Engine,Piplup,Piplup,8,MOVE_WATER_GUN,Water Gun,Water,Special,40,100,25,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Piplup,Piplup,11,MOVE_CHARM,Charm,Fairy,Status,0,100,20,MOVE_EFFECT_ATK_DOWN_2,0,True,Other type
+Engine,Piplup,Piplup,15,MOVE_PECK,Peck,Flying,Physical,35,100,35,MOVE_EFFECT_HIT,0,True,Other type
+Engine,Piplup,Prinplup,16,MOVE_METAL_CLAW,Metal Claw,Steel,Physical,50,95,35,MOVE_EFFECT_RAISE_ATTACK_HIT,0,True,Other type
+Engine,Piplup,Prinplup,19,MOVE_BUBBLE_BEAM,Bubble Beam,Water,Special,65,100,20,MOVE_EFFECT_LOWER_SPEED_HIT,0,True,Own type
+Engine,Piplup,Prinplup,24,MOVE_SWAGGER,Swagger,Normal,Status,0,85,15,MOVE_EFFECT_ATK_UP_2_STATUS_CONFUSION,0,True,Normal
+Engine,Piplup,Prinplup,28,MOVE_FURY_ATTACK,Fury Attack,Normal,Physical,15,85,20,MOVE_EFFECT_MULTI_HIT,0,True,Normal
+Engine,Piplup,Prinplup,33,MOVE_BRINE,Brine,Water,Special,65,100,10,MOVE_EFFECT_DOUBLE_POWER_WHEN_BELOW_HALF,0,True,Own type
+Engine,Piplup,Empoleon,36,MOVE_AQUA_JET,Aqua Jet,Water,Physical,40,100,20,MOVE_EFFECT_PRIORITY_1,1,True,Own type
+Engine,Piplup,Empoleon,39,MOVE_WHIRLPOOL,Whirlpool,Water,Special,35,85,15,MOVE_EFFECT_WHIRLPOOL,0,True,Own type
+Engine,Piplup,Empoleon,46,MOVE_MIST,Mist,Ice,Status,0,0,30,MOVE_EFFECT_PREVENT_STAT_REDUCTION,0,True,Other type
+Engine,Piplup,Empoleon,52,MOVE_DRILL_PECK,Drill Peck,Flying,Physical,80,100,20,MOVE_EFFECT_HIT,0,True,Other type
+Engine,Piplup,Empoleon,59,MOVE_HYDRO_PUMP,Hydro Pump,Water,Special,110,80,5,MOVE_EFFECT_HIT,0,True,Own type
+Engine,Piplup,Empoleon,66,MOVE_WAVE_CRASH,Wave Crash,Water,Physical,120,100,10,MOVE_EFFECT_RECOIL_THIRD,0,True,Own type

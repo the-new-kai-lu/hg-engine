@@ -1,0 +1,334 @@
+{
+  "status": "approved_move_selection_installed",
+  "species": {
+    "Voltuff": [
+      {
+        "move_id": "MOVE_FAKE_OUT",
+        "move": "Fake Out",
+        "type": "Normal",
+        "category": "Physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "10",
+        "effect": "MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY",
+        "priority": "3",
+        "implemented": true,
+        "rationale": "First-turn disruption suits a quick, mischievous primate.",
+        "egg_precedent_species": "CHIMCHAR",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_ENCORE",
+        "move": "Encore",
+        "type": "Normal",
+        "category": "Status",
+        "power": "0",
+        "accuracy": "100",
+        "pp": "5",
+        "effect": "MOVE_EFFECT_ENCORE",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Punish an opponent repeating a setup or support move.",
+        "egg_precedent_species": "CHIMCHAR",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_DOUBLE_KICK",
+        "move": "Double Kick",
+        "type": "Fighting",
+        "category": "Physical",
+        "power": "30",
+        "accuracy": "100",
+        "pp": "30",
+        "effect": "MOVE_EFFECT_HIT_TWICE",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Early Fighting flavor without granting the Fighting type.",
+        "egg_precedent_species": "CHIMCHAR",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_FIRE_PUNCH",
+        "move": "Fire Punch",
+        "type": "Fire",
+        "category": "Physical",
+        "power": "75",
+        "accuracy": "100",
+        "pp": "15",
+        "effect": "MOVE_EFFECT_BURN_HIT",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Physical coverage and punching identity.",
+        "egg_precedent_species": "MACHOP",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_ICE_PUNCH",
+        "move": "Ice Punch",
+        "type": "Ice",
+        "category": "Physical",
+        "power": "75",
+        "accuracy": "100",
+        "pp": "15",
+        "effect": "MOVE_EFFECT_FREEZE_HIT",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Complementary physical coverage; also has Electric-family precedent in HGSS Elekid.",
+        "egg_precedent_species": "MACHOP",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_FEINT",
+        "move": "Feint",
+        "type": "Normal",
+        "category": "Physical",
+        "power": "30",
+        "accuracy": "100",
+        "pp": "10",
+        "effect": "MOVE_EFFECT_REMOVE_PROTECT",
+        "priority": "2",
+        "implemented": true,
+        "rationale": "A situational priority option that punishes protection.",
+        "egg_precedent_species": "ELEKID",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      }
+    ],
+    "Embernewt": [
+      {
+        "move_id": "MOVE_ANCIENT_POWER",
+        "move": "Ancient Power",
+        "type": "Rock",
+        "category": "Special",
+        "power": "60",
+        "accuracy": "100",
+        "pp": "5",
+        "effect": "MOVE_EFFECT_RAISE_ALL_STATS_HIT",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Earlier access to existing rocky-body coverage; useful to either branch.",
+        "egg_precedent_species": "CHARMANDER",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_DRAGON_RUSH",
+        "move": "Dragon Rush",
+        "type": "Dragon",
+        "category": "Physical",
+        "power": "100",
+        "accuracy": "75",
+        "pp": "10",
+        "effect": "MOVE_EFFECT_FLINCH_HIT",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Risky physical coverage for the imposing reptilian final forms.",
+        "egg_precedent_species": "CHARMANDER",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_COUNTER",
+        "move": "Counter",
+        "type": "Fighting",
+        "category": "Physical",
+        "power": "1",
+        "accuracy": "100",
+        "pp": "20",
+        "effect": "MOVE_EFFECT_COUNTER",
+        "priority": "-5",
+        "implemented": true,
+        "rationale": "A reactive option that benefits from the line's HP.",
+        "egg_precedent_species": "HOUNDOUR",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_THUNDER_FANG",
+        "move": "Thunder Fang",
+        "type": "Electric",
+        "category": "Physical",
+        "power": "65",
+        "accuracy": "95",
+        "pp": "15",
+        "effect": "MOVE_EFFECT_FLINCH_PARALYZE_HIT",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "A physical coverage option shared by Fire/Dark analogues.",
+        "egg_precedent_species": "HOUNDOUR",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_YAWN",
+        "move": "Yawn",
+        "type": "Normal",
+        "category": "Status",
+        "power": "0",
+        "accuracy": "0",
+        "pp": "10",
+        "effect": "MOVE_EFFECT_STATUS_SLEEP_NEXT_TURN",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Slow pressure for a bulky line, drawn from the Ice comparison.",
+        "egg_precedent_species": "SPHEAL",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_CURSE",
+        "move": "Curse",
+        "type": "Ghost",
+        "category": "Status",
+        "power": "0",
+        "accuracy": "0",
+        "pp": "10",
+        "effect": "MOVE_EFFECT_CURSE",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "An alternative physical/bulky build: raises Attack/Defense at the cost of Speed.",
+        "egg_precedent_species": "SPHEAL",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      }
+    ],
+    "Sedgling": [
+      {
+        "move_id": "MOVE_AQUA_JET",
+        "move": "Aqua Jet",
+        "type": "Water",
+        "category": "Physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "20",
+        "effect": "MOVE_EFFECT_PRIORITY_1",
+        "priority": "1",
+        "implemented": true,
+        "rationale": "Modest Water priority that remains useful after the typing changes.",
+        "egg_precedent_species": "SQUIRTLE",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_FEATHER_DANCE",
+        "move": "Feather Dance",
+        "type": "Flying",
+        "category": "Status",
+        "power": "0",
+        "accuracy": "100",
+        "pp": "15",
+        "effect": "MOVE_EFFECT_ATK_DOWN_2",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Bird-themed physical disruption.",
+        "egg_precedent_species": "STARLY",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_ROOST",
+        "move": "Roost",
+        "type": "Flying",
+        "category": "Status",
+        "power": "0",
+        "accuracy": "0",
+        "pp": "5",
+        "effect": "MOVE_EFFECT_HEAL_HALF_REMOVE_FLYING_TYPE",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Earlier access to its normal recovery move.",
+        "egg_precedent_species": "PIPLUP",
+        "egg_precedent_snapshots": [
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_MIRROR_COAT",
+        "move": "Mirror Coat",
+        "type": "Psychic",
+        "category": "Special",
+        "power": "1",
+        "accuracy": "100",
+        "pp": "20",
+        "effect": "MOVE_EFFECT_MIRROR_COAT",
+        "priority": "-5",
+        "implemented": true,
+        "rationale": "A reactive special-damage option from Ground/Water analogues.",
+        "egg_precedent_species": "MUDKIP",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_YAWN",
+        "move": "Yawn",
+        "type": "Normal",
+        "category": "Status",
+        "power": "0",
+        "accuracy": "0",
+        "pp": "10",
+        "effect": "MOVE_EFFECT_STATUS_SLEEP_NEXT_TURN",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Marsh-duck utility and pressure.",
+        "egg_precedent_species": "PIPLUP",
+        "egg_precedent_snapshots": [
+          "HGSS",
+          "Engine"
+        ]
+      },
+      {
+        "move_id": "MOVE_STEEL_WING",
+        "move": "Steel Wing",
+        "type": "Steel",
+        "category": "Physical",
+        "power": "70",
+        "accuracy": "90",
+        "pp": "25",
+        "effect": "MOVE_EFFECT_RAISE_DEF_HIT",
+        "priority": "0",
+        "implemented": true,
+        "rationale": "Physical coverage rooted in bird anatomy and stony feathers.",
+        "egg_precedent_species": "PIDGEY",
+        "egg_precedent_snapshots": [
+          "HGSS"
+        ]
+      }
+    ]
+  },
+  "approval_scope": "User approved the proposed moves and revised learning levels, including machine/tutor and egg lists. This does not resolve egg groups, donor routes, or pending evolution-mechanic details."
+}

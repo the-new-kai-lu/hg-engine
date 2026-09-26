@@ -1,3 +1,4 @@
+#include "fakemon.h"
 #include "config.h"
 #include "types.h"
 
@@ -39,6 +40,7 @@ struct BattleStruct *ServerInit(struct BattleSystem *bw)
 
     sp = sys_AllocMemory(HEAPID_BATTLE_HEAP, sizeof(struct BattleStruct));
     memset(sp, 0, sizeof(struct BattleStruct));
+    FakemonResetBattle();
     BattleStructureInit(sp);
     BattleStructureCounterInit(bw, sp);
     ServerMoveAIInit(bw, sp);

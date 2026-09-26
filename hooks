@@ -655,3 +655,9 @@ arm9 EncounterSlot_WildMonSlotRoll_Headbutt 022477C0 0
 0012 BattleSystem_AdjustMessageForSide 0223C558 2
 
 0012 PlayerTrainerVictoryBGM_hook 0224DA9E 3
+
+arm9 FakemonEligibleReminderMoves 0209176C 3
+
+0018 FakemonDexDescription 021E59A8
+0018 FakemonDexPrint 021F95FC
+0018 FakemonDexMain 021E8BF4 3

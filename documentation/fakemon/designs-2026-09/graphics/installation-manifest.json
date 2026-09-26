@@ -1,0 +1,79 @@
+[
+  {
+    "design": "voltuff",
+    "icon_palette": 0,
+    "follower_size": 32,
+    "species_id": 1076,
+    "rom_registered": true
+  },
+  {
+    "design": "surguenon",
+    "icon_palette": 0,
+    "follower_size": 32,
+    "species_id": 1077,
+    "rom_registered": true
+  },
+  {
+    "design": "raijinque",
+    "icon_palette": 0,
+    "follower_size": 64,
+    "species_id": 1078,
+    "rom_registered": true
+  },
+  {
+    "design": "embernewt",
+    "icon_palette": 0,
+    "follower_size": 32,
+    "species_id": 1079,
+    "rom_registered": true
+  },
+  {
+    "design": "pyrovaran",
+    "icon_palette": 0,
+    "follower_size": 32,
+    "species_id": 1080,
+    "rom_registered": true
+  },
+  {
+    "design": "magmalisk",
+    "icon_palette": 0,
+    "follower_size": 64,
+    "species_id": 1081,
+    "rom_registered": true
+  },
+  {
+    "design": "rimevaran",
+    "icon_palette": 0,
+    "follower_size": 32,
+    "species_id": 1082,
+    "rom_registered": true
+  },
+  {
+    "design": "fimbulisk",
+    "icon_palette": 0,
+    "follower_size": 64,
+    "species_id": 1083,
+    "rom_registered": true
+  },
+  {
+    "design": "sedgling",
+    "icon_palette": 2,
+    "follower_size": 32,
+    "species_id": 1084,
+    "rom_registered": true
+  },
+  {
+    "design": "cragaviar",
+    "icon_palette": 2,
+    "follower_size": 32,
+    "species_id": 1085,
+    "rom_registered": true
+  },
+  {
+    "design": "ragnaroc",
+    "icon_palette": 2,
+    "follower_size": 64,
+    "species_id": 1086,
+    "rom_registered": true
+  }
+]

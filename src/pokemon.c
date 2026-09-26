@@ -1,3 +1,4 @@
+#include "fakemon.h"
 #include "config.h"
 #include "debug.h"
 #include "types.h"
@@ -415,6 +416,9 @@ BOOL SetBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, void 
     PokemonDataBlockC *blockC UNUSED = blocks->blockC;
     PokemonDataBlockD *blockD = blocks->blockD;
     switch (field) {
+    case MON_DATA_SPECIES:
+        blockA->exp = FakemonConvertEvolutionExp(blockA->species, *((u16 *)data), blockA->exp);
+        break; // Vanilla setter still commits the species and its other bookkeeping.
     case MON_DATA_ABILITY: {
         u16 ability = *((u16 *)data);
         blockA->ability = ability & 0xFF;
@@ -1460,7 +1464,7 @@ void sub_0206D328(struct PartyPokemon *pokemon, u32 heapId)
     ResetPartyPokemonAbility(pokemon);
 }
 
-#define CRY_SPECIES_FORMS_BASE (SPECIES_MAX_MON_NUM + 1)
+#define CRY_SPECIES_FORMS_BASE (MAX_CANONICAL_MON_NUM + 1)
 
 // need to be in order of form so that python script can generate the makefile
 #define CRY_SPECIES_SHAYMIN 0x1EE
@@ -1546,6 +1550,8 @@ u32 storeShayminForm = 0;
 u32 GrabCryNumSpeciesForm(u32 species, u32 form)
 {
     u32 newSpecies = 0;
+    if (species >= SPECIES_VOLTUFF && species <= SPECIES_RAGNAROC)
+        return 1149 + species - SPECIES_VOLTUFF;
 
     // manually map all of the limbo slots to bulbasaur's cry
     if (species > SPECIES_ARCEUS && species < SPECIES_VICTINI) {
@@ -1931,7 +1937,7 @@ u32 MonTryLearnMoveOnLevelUp(struct PartyPokemon *mon, int *last_i, u16 *sp0)
         }
     }
     if ((levelUpLearnset[*last_i] & LEVEL_UP_LEARNSET_LEVEL_MASK) == (level << LEVEL_UP_LEARNSET_LEVEL_SHIFT)) {
-        *sp0 = LEVEL_UP_LEARNSET_MOVE(levelUpLearnset[*last_i]);
+        *sp0 = FakemonLearningMove(mon, level, LEVEL_UP_LEARNSET_MOVE(levelUpLearnset[*last_i]));
         (*last_i)++;
 #ifdef BLOCK_LEARNING_UNIMPLEMENTED_MOVES
         if (!IsMoveUnimplemented(*sp0))
@@ -2216,4 +2222,28 @@ void LONG_CALL LoadLevelUpLearnset_HandleAlternateForm(int species, int form, u3
         }
     }
 #endif
+}
+
+/* Native Move Relearner contract: allocated u16 list, terminated by 0xFFFF. */
+u16 *FakemonEligibleReminderMoves(struct PartyPokemon *mon, u32 heap)
+{
+    u32 *table = sys_AllocMemory(heap, MAX_LEVELUP_MOVES * sizeof(u32));
+    u16 *result = sys_AllocMemory(heap, (MAX_LEVELUP_MOVES + 1) * sizeof(u16));
+    u32 level = GetMonData(mon, MON_DATA_LEVEL, NULL);
+    LoadLevelUpLearnset_HandleAlternateForm(GetMonData(mon, MON_DATA_SPECIES, NULL),
+        GetMonData(mon, MON_DATA_FORM, NULL), table);
+    int count = 0;
+    for (int i = 0; i < MAX_LEVELUP_MOVES && table[i] != LEVEL_UP_LEARNSET_END; i++) {
+        u32 learnedAt = LEVEL_UP_LEARNSET_LEVEL(table[i]);
+        if (learnedAt > level) continue;
+        u16 move = FakemonLearningMove(mon, learnedAt, LEVEL_UP_LEARNSET_MOVE(table[i]));
+        BOOL duplicate = FALSE;
+        for (int j = 0; j < 4; j++)
+            if (GetMonData(mon, MON_DATA_MOVE1 + j, NULL) == move) duplicate = TRUE;
+        for (int j = 0; j < count; j++) if (result[j] == move) duplicate = TRUE;
+        if (!duplicate) result[count++] = move;
+    }
+    result[count] = 0xFFFF;
+    sys_FreeMemoryEz(table);
+    return result;
 }

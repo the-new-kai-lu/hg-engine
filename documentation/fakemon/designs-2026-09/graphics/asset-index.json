@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "source": "Three user-supplied phone concept sheets in conversation",
+  "status": "native_graphics_installed_species_registration_pending",
+  "generation_tool": "built-in image generation",
+  "designs": [
+    {
+      "design_key": "voltuff",
+      "family": "voltuff",
+      "row_index_zero_based": 0,
+      "battle_draft": "drafts/voltuff/battle-v01.png",
+      "follower_draft": "drafts/voltuff/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 0,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/voltuff/male/front.png",
+        "back": "data/graphics/sprites/voltuff/male/back.png",
+        "normal_palette": "data/graphics/sprites/voltuff/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/voltuff/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/voltuff/icon.png",
+        "follower": "data/graphics/sprites/voltuff/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "surguenon",
+      "family": "voltuff",
+      "row_index_zero_based": 1,
+      "battle_draft": "drafts/voltuff/battle-v01.png",
+      "follower_draft": "drafts/voltuff/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 1,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/surguenon/male/front.png",
+        "back": "data/graphics/sprites/surguenon/male/back.png",
+        "normal_palette": "data/graphics/sprites/surguenon/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/surguenon/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/surguenon/icon.png",
+        "follower": "data/graphics/sprites/surguenon/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "raijinque",
+      "family": "voltuff",
+      "row_index_zero_based": 2,
+      "battle_draft": "drafts/voltuff/battle-v01.png",
+      "follower_draft": "drafts/voltuff/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 2,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/raijinque/male/front.png",
+        "back": "data/graphics/sprites/raijinque/male/back.png",
+        "normal_palette": "data/graphics/sprites/raijinque/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/raijinque/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/raijinque/icon.png",
+        "follower": "data/graphics/sprites/raijinque/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "embernewt",
+      "family": "embernewt",
+      "row_index_zero_based": 0,
+      "battle_draft": "drafts/embernewt/battle-v01.png",
+      "follower_draft": "drafts/embernewt/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 3,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/embernewt/male/front.png",
+        "back": "data/graphics/sprites/embernewt/male/back.png",
+        "normal_palette": "data/graphics/sprites/embernewt/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/embernewt/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/embernewt/icon.png",
+        "follower": "data/graphics/sprites/embernewt/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "pyrovaran",
+      "family": "embernewt",
+      "row_index_zero_based": 1,
+      "battle_draft": "drafts/embernewt/battle-v01.png",
+      "follower_draft": "drafts/embernewt/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 4,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/pyrovaran/male/front.png",
+        "back": "data/graphics/sprites/pyrovaran/male/back.png",
+        "normal_palette": "data/graphics/sprites/pyrovaran/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/pyrovaran/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/pyrovaran/icon.png",
+        "follower": "data/graphics/sprites/pyrovaran/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "magmalisk",
+      "family": "embernewt",
+      "row_index_zero_based": 2,
+      "battle_draft": "drafts/embernewt/battle-v01.png",
+      "follower_draft": "drafts/embernewt/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 5,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/magmalisk/male/front.png",
+        "back": "data/graphics/sprites/magmalisk/male/back.png",
+        "normal_palette": "data/graphics/sprites/magmalisk/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/magmalisk/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/magmalisk/icon.png",
+        "follower": "data/graphics/sprites/magmalisk/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "rimevaran",
+      "family": "embernewt",
+      "row_index_zero_based": 3,
+      "battle_draft": "drafts/embernewt/battle-v01.png",
+      "follower_draft": "drafts/embernewt/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 6,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/rimevaran/male/front.png",
+        "back": "data/graphics/sprites/rimevaran/male/back.png",
+        "normal_palette": "data/graphics/sprites/rimevaran/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/rimevaran/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/rimevaran/icon.png",
+        "follower": "data/graphics/sprites/rimevaran/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "fimbulisk",
+      "family": "embernewt",
+      "row_index_zero_based": 4,
+      "battle_draft": "drafts/embernewt/battle-v01.png",
+      "follower_draft": "drafts/embernewt/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 0,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 7,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/fimbulisk/male/front.png",
+        "back": "data/graphics/sprites/fimbulisk/male/back.png",
+        "normal_palette": "data/graphics/sprites/fimbulisk/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/fimbulisk/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/fimbulisk/icon.png",
+        "follower": "data/graphics/sprites/fimbulisk/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "sedgling",
+      "family": "sedgling",
+      "row_index_zero_based": 0,
+      "battle_draft": "drafts/sedgling/battle-v02.png",
+      "follower_draft": "drafts/sedgling/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 2,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 8,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/sedgling/male/front.png",
+        "back": "data/graphics/sprites/sedgling/male/back.png",
+        "normal_palette": "data/graphics/sprites/sedgling/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/sedgling/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/sedgling/icon.png",
+        "follower": "data/graphics/sprites/sedgling/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "cragaviar",
+      "family": "sedgling",
+      "row_index_zero_based": 1,
+      "battle_draft": "drafts/sedgling/battle-v02.png",
+      "follower_draft": "drafts/sedgling/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 2,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 9,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/cragaviar/male/front.png",
+        "back": "data/graphics/sprites/cragaviar/male/back.png",
+        "normal_palette": "data/graphics/sprites/cragaviar/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/cragaviar/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/cragaviar/icon.png",
+        "follower": "data/graphics/sprites/cragaviar/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    },
+    {
+      "design_key": "ragnaroc",
+      "family": "sedgling",
+      "row_index_zero_based": 2,
+      "battle_draft": "drafts/sedgling/battle-v02.png",
+      "follower_draft": "drafts/sedgling/followers-v02.png",
+      "icon_draft": "drafts/all-families/icons-v01.png",
+      "icon_palette_proposal": 2,
+      "shiny_proposal": "drafts/all-families/shiny-proposals-v01.png",
+      "left_walk_replacement": "drafts/all-families/left-walk-pairs-v01.png",
+      "shared_sheet_panel_zero_based": 10,
+      "approval": {
+        "normal_generated_art": "pending",
+        "shiny_palette": "approved_by_user"
+      },
+      "game_exports": {
+        "front": "data/graphics/sprites/ragnaroc/male/front.png",
+        "back": "data/graphics/sprites/ragnaroc/male/back.png",
+        "normal_palette": "data/graphics/sprites/ragnaroc/overworld-tsure_poke0.pal",
+        "shiny_palette": "data/graphics/sprites/ragnaroc/overworld-tsure_poke1.pal",
+        "icon": "data/graphics/sprites/ragnaroc/icon.png",
+        "follower": "data/graphics/sprites/ragnaroc/overworld.png"
+      },
+      "native_format_validated": true,
+      "engine_converters_passed": true
+    }
+  ],
+  "artifacts": [
+    {
+      "key": "voltuff_battle_sheet_v1",
+      "family": "voltuff",
+      "role": "battle",
+      "version": 1,
+      "path": "drafts/voltuff/battle-v01.png",
+      "prompt_path": "drafts/voltuff/battle-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "embernewt_battle_sheet_v1",
+      "family": "embernewt",
+      "role": "battle",
+      "version": 1,
+      "path": "drafts/embernewt/battle-v01.png",
+      "prompt_path": "drafts/embernewt/battle-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "sedgling_battle_sheet_v1",
+      "family": "sedgling",
+      "role": "battle",
+      "version": 1,
+      "path": "drafts/sedgling/battle-v01.png",
+      "prompt_path": "drafts/sedgling/battle-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "voltuff_followers_v1",
+      "family": "voltuff",
+      "role": "followers",
+      "version": 1,
+      "path": "drafts/voltuff/followers-v01.png",
+      "prompt_path": "drafts/voltuff/followers-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "embernewt_followers_v1",
+      "family": "embernewt",
+      "role": "followers",
+      "version": 1,
+      "path": "drafts/embernewt/followers-v01.png",
+      "prompt_path": "drafts/embernewt/followers-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "sedgling_followers_v1",
+      "family": "sedgling",
+      "role": "followers",
+      "version": 1,
+      "path": "drafts/sedgling/followers-v01.png",
+      "prompt_path": "drafts/sedgling/followers-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "sedgling_battle_sheet_v2",
+      "family": "sedgling",
+      "role": "battle",
+      "version": 2,
+      "path": "drafts/sedgling/battle-v02.png",
+      "prompt_path": "drafts/sedgling/battle-v02.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "voltuff_followers_v2",
+      "family": "voltuff",
+      "role": "followers",
+      "version": 2,
+      "path": "drafts/voltuff/followers-v02.png",
+      "prompt_path": "drafts/voltuff/followers-v02.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "embernewt_followers_v2",
+      "family": "embernewt",
+      "role": "followers",
+      "version": 2,
+      "path": "drafts/embernewt/followers-v02.png",
+      "prompt_path": "drafts/embernewt/followers-v02.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "sedgling_followers_v2",
+      "family": "sedgling",
+      "role": "followers",
+      "version": 2,
+      "path": "drafts/sedgling/followers-v02.png",
+      "prompt_path": "drafts/sedgling/followers-v02.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "all_icons_v1",
+      "family": "all-families",
+      "role": "icons",
+      "version": 1,
+      "path": "drafts/all-families/icons-v01.png",
+      "prompt_path": "drafts/all-families/icons-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "all_shiny_proposals_v1",
+      "family": "all-families",
+      "role": "shiny-proposals",
+      "version": 1,
+      "path": "drafts/all-families/shiny-proposals-v01.png",
+      "prompt_path": "drafts/all-families/shiny-proposals-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    },
+    {
+      "key": "all_left_walk_pairs_v1",
+      "family": "all-families",
+      "role": "left-walk-pairs",
+      "version": 1,
+      "path": "drafts/all-families/left-walk-pairs-v01.png",
+      "prompt_path": "drafts/all-families/left-walk-pairs-v01.prompt.txt",
+      "status": "draft_not_imported",
+      "tool": "built-in image generation"
+    }
+  ],
+  "review_notes": [
+    "Native indexed exports are installed in data/graphics/sprites; original presentation sheets remain in drafts.",
+    "Shiny palettes approved by user. Shiny output is an exact palette swap, not separately generated geometry.",
+    "Followers use dedicated left pairs and mirrored right pairs; original follower board direction errors are excluded.",
+    "All 66 PNGs pass format validation; see validation-report.json for converter status.",
+    "GIF timings are review-only; game animation tables, offsets and shadows await species registration and in-game checks.",
+    "No species IDs, gameplay stats or Embernewt switching mechanics have been assigned."
+  ]
+}

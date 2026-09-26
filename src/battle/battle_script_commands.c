@@ -1,3 +1,4 @@
+#include "fakemon.h"
 #include "config.h"
 #include "debug.h"
 #include "types.h"
@@ -1501,8 +1502,12 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
             sp->battlemon[sp->fainting_client].form_no);
     }
 
-_skipAllThis:
+_skipAllThis:;
+    struct FakemonExpSnapshot snapshot;
+    FakemonBeforeExp(&snapshot, expcalc->bw, sp);
     Task_DistributeExp(arg0, work);
+    // The native task can free work; use only our stack snapshot after it returns.
+    FakemonAfterExp(&snapshot);
 }
 
 #ifdef IMPLEMENT_CAPTURE_EXPERIENCE

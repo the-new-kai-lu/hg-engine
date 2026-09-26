@@ -167,6 +167,8 @@ ICONGFX_RAWDATA_DIR := rawdata/files_from_a020
         output.write(btxDepStr + "\n")
         output.write(convertedIcon + ".NCGR: data/graphics/sprites/" + speciesName + "/icon.png\n" + icon_format.format(convertedIcon))
 
+# Species insertion shifts every subsequent form. Rebuild existing numeric targets too.
+    output.write("$(POKEGRA_DEPENDENCIES) $(ICONGFX_OBJS) $(ALL_OVERWORLDS_OBJS): include/constants/species.h\n\n")
 # footer
     output.write("""$(POKEGRA_NARC): $(POKEGRA_DEPENDENCIES)
 	$(NARCHIVE) create $@ $(POKEGRA_BUILD_DIR) -nf

@@ -1,0 +1,25 @@
+dataset,family,move_events,distinct_learning_levels,median_level_gap,first_own_damage,first_own_80plus,other_type_attacks,other_type_status,other_attack_types
+HGSS,Bulbasaur,15,13,4.0,L9 Vine Whip,L32 Petal Dance,0,0,—
+HGSS,Charmander,14,12,6,L7 Ember,L42 Flamethrower,2,0,Dragon
+HGSS,Squirtle,15,14,4,L7 Bubble,L32 Aqua Tail,1,1,Dark
+HGSS,Chikorita,16,13,6.0,L6 Razor Leaf,L32 Petal Dance,0,3,—
+HGSS,Cyndaquil,13,11,4.0,L10 Ember,L35 Lava Plume,1,0,Rock
+HGSS,Totodile,17,14,5,L6 Water Gun,L58 Aqua Tail,5,1,"Dark, Fighting, Ice"
+HGSS,Treecko,14,11,6.0,L6 Absorb,L29 Leaf Blade,3,2,"Bug, Dark"
+HGSS,Torchic,15,12,6,L10 Ember,L36 Blaze Kick,3,1,Flying
+HGSS,Mudkip,14,12,6,L10 Water Gun,L39 Muddy Water,2,0,"Fighting, Ground"
+HGSS,Turtwig,14,12,5,L9 Absorb,L32 Earthquake,2,2,Dark
+HGSS,Chimchar,14,12,4,L7 Ember,L36 Close Combat,0,3,—
+HGSS,Piplup,15,14,4,L8 Bubble,L59 Hydro Pump,3,1,"Flying, Steel"
+Engine,Bulbasaur,16,13,5.0,L3 Vine Whip,L20 Seed Bomb,0,1,—
+Engine,Charmander,13,11,6.0,L4 Ember,L30 Flamethrower,1,0,Dragon
+Engine,Squirtle,15,13,5.0,L3 Water Gun,L30 Aqua Tail,2,1,"Dark, Steel"
+Engine,Chikorita,16,13,5.5,L6 Razor Leaf,L32 Petal Dance,0,3,—
+Engine,Cyndaquil,14,12,5,L10 Ember,L43 Lava Plume,1,0,Rock
+Engine,Totodile,15,13,5.5,L6 Water Gun,L59 Aqua Tail,5,0,"Dark, Fighting, Ice"
+Engine,Treecko,15,13,5.0,L3 Leafage,L36 Leaf Blade,1,2,Dark
+Engine,Torchic,17,15,4.5,L3 Ember,L36 Blaze Kick,3,2,Flying
+Engine,Mudkip,16,14,5,L3 Water Gun,L42 Muddy Water,3,1,"Fighting, Rock"
+Engine,Turtwig,15,13,5.0,L9 Absorb,L32 Earthquake,2,2,Dark
+Engine,Chimchar,15,13,5.0,L7 Ember,L36 Close Combat,1,3,Flying
+Engine,Piplup,16,15,4.0,L8 Water Gun,L59 Hydro Pump,3,2,"Flying, Steel"

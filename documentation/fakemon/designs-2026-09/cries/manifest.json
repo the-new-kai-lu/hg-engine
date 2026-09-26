@@ -1,0 +1,1082 @@
+{
+  "status": "all_current_cries_approved_not_installed",
+  "generator": "scripts/generate_fakemon_cries.py",
+  "draft_format": "mono 16-bit PCM WAV at 16384 Hz",
+  "draft_source": "Original synthesized voices; evolved varans additionally mix CC0 field-recording excerpts. See samples/sources.json. No existing Pokemon cries sampled.",
+  "reference_source": "Unchanged WAVs from this checkout; not independently verified as untouched retail HGSS cries.",
+  "tracks": [
+    {
+      "name": "Voltuff",
+      "group": "Electric",
+      "kind": "draft",
+      "path": "drafts/voltuff.wav",
+      "duration": 0.75994873046875,
+      "peak": 0.3840765798335056,
+      "rms": 0.16999999999999998,
+      "sha256": "d359640a6d94dd09cf47335ca05f3f90b9932efca73f817d34144a3a5b24ae8c"
+    },
+    {
+      "name": "Surguenon",
+      "group": "Electric",
+      "kind": "draft",
+      "path": "drafts/surguenon.wav",
+      "duration": 1.25,
+      "peak": 0.41375218284184795,
+      "rms": 0.17,
+      "sha256": "e3ebe1491100592c5828f1c4d470590b3270e39dbf2d11bd6afd2810257dca3c"
+    },
+    {
+      "name": "Raijinque",
+      "group": "Electric",
+      "kind": "draft",
+      "path": "drafts/raijinque.wav",
+      "duration": 1.47998046875,
+      "peak": 0.45192825229362876,
+      "rms": 0.17,
+      "sha256": "1a6ea55a0a640cb172b607ba2f2b93019334bb4f1dadb14d47bcca97c3747fc9"
+    },
+    {
+      "name": "Embernewt",
+      "group": "Varan",
+      "kind": "draft",
+      "path": "drafts/embernewt.wav",
+      "duration": 0.7349853515625,
+      "peak": 0.4047952596422575,
+      "rms": 0.17000000000000004,
+      "sha256": "b4b5c8553da515db969a4ef6eb558671537c2cd0d05f447b9a91ff5a11f0bc98"
+    },
+    {
+      "name": "Pyrovaran",
+      "group": "Varan",
+      "kind": "draft",
+      "path": "drafts/pyrovaran.wav",
+      "duration": 1.10491943359375,
+      "peak": 0.4618219566008469,
+      "rms": 0.17000000000000004,
+      "sha256": "4d2530b7e4442e0a99711304f0c19f98fcb485dcba89857d300cadc297c3d55e"
+    },
+    {
+      "name": "Magmalisk",
+      "group": "Varan",
+      "kind": "draft",
+      "path": "drafts/magmalisk.wav",
+      "duration": 1.31494140625,
+      "peak": 0.4637759571369644,
+      "rms": 0.17000000000000004,
+      "sha256": "1754d309ddc2809db4e34bdcdfdf108e3f50bafa37fe787af0e3dea39f2f74e6"
+    },
+    {
+      "name": "Rimevaran",
+      "group": "Varan",
+      "kind": "draft",
+      "path": "drafts/rimevaran.wav",
+      "duration": 1.2049560546875,
+      "peak": 0.4537515010800045,
+      "rms": 0.17000000000000004,
+      "sha256": "a4ec423ba7665ce5ba61866596d3f54d8193ee4a47f3f49e7bd8eb0ec0cc1ccd"
+    },
+    {
+      "name": "Fimbulisk",
+      "group": "Varan",
+      "kind": "draft",
+      "path": "drafts/fimbulisk.wav",
+      "duration": 1.4249267578125,
+      "peak": 0.4488171652005336,
+      "rms": 0.17000000000000004,
+      "sha256": "9571e951af9c34a63d7cb8d0ab2df609b4cb1bf6de91fc639ac3522a29c0ead8"
+    },
+    {
+      "name": "Sedgling",
+      "group": "Bird",
+      "kind": "draft",
+      "path": "drafts/sedgling.wav",
+      "duration": 0.8299560546875,
+      "peak": 0.3262324095251831,
+      "rms": 0.17,
+      "sha256": "33dacc899c5e8b86734105d9ab6acb31241566d6009691d7621c8102488ae7ea"
+    },
+    {
+      "name": "Cragaviar",
+      "group": "Bird",
+      "kind": "draft",
+      "path": "drafts/cragaviar.wav",
+      "duration": 1.13995361328125,
+      "peak": 0.97,
+      "rms": 0.2151661398605604,
+      "sha256": "d15766cd9b7bb8b31e9a3d5e002a1127cbbebf268ad4dadc795b2934e33bd6bc"
+    },
+    {
+      "name": "Ragnaroc",
+      "group": "Bird",
+      "kind": "draft",
+      "path": "drafts/ragnaroc.wav",
+      "duration": 1.52996826171875,
+      "peak": 0.8592481045322201,
+      "rms": 0.37,
+      "sha256": "3e8e02b3cb4746988e91728f6ce3c2dfe33b6e34a0ac7a8e01c64e0e081943be"
+    },
+    {
+      "name": "Bulbasaur",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/001-bulbasaur.wav",
+      "duration": 0.9601614470438747,
+      "source": "sound/cries/001.wav",
+      "sha256": "4b112f191bfee0ddd25901ddbae6a7c7b9181a31de1a5949df79ca09cb99059b"
+    },
+    {
+      "name": "Ivysaur",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/002-ivysaur.wav",
+      "duration": 0.8937140294491367,
+      "source": "sound/cries/002.wav",
+      "sha256": "300a566f9ae49ca9b59ccfada7f3d9e25e1002d68508a4ae78c65f4d5b375ca9"
+    },
+    {
+      "name": "Venusaur",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/003-venusaur.wav",
+      "duration": 1.0892443381418642,
+      "source": "sound/cries/003.wav",
+      "sha256": "48d8d7076917e25d23cd7fde3fd961980973eb6c93d42542d1a46d9270089382"
+    },
+    {
+      "name": "Charmander",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/004-charmander.wav",
+      "duration": 0.719635249271246,
+      "source": "sound/cries/004.wav",
+      "sha256": "e3266d0ab1de81aba68814b28bb7dfafcd46382336d239b65c8b5b6573b4027f"
+    },
+    {
+      "name": "Charmeleon",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/005-charmeleon.wav",
+      "duration": 1.0266836086404065,
+      "source": "sound/cries/005.wav",
+      "sha256": "70a7840336ddc0544f5f8a0ba6507ae6f2f1308d46cef3b198a177ce8cd47b65"
+    },
+    {
+      "name": "Charizard",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/006-charizard.wav",
+      "duration": 1.0305702967336872,
+      "source": "sound/cries/006.wav",
+      "sha256": "2382dd0968ae8b294ed1dedb14525f920b09eb8b10d4cd7afe32b6b8eda62b75"
+    },
+    {
+      "name": "Squirtle",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/007-squirtle.wav",
+      "duration": 0.9014874056356977,
+      "source": "sound/cries/007.wav",
+      "sha256": "4d38b204080831916ce71a0c1efda907ba4a34d50f22aa27e7dcbfba0894b39b"
+    },
+    {
+      "name": "Wartortle",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/008-wartortle.wav",
+      "duration": 1.0266836086404065,
+      "source": "sound/cries/008.wav",
+      "sha256": "d9f3ffb263e5a0f28585ef0487870debecdfdddaa593d7f66611078cc885730f"
+    },
+    {
+      "name": "Blastoise",
+      "group": "Gen 1",
+      "kind": "reference",
+      "path": "references/009-blastoise.wav",
+      "duration": 1.1166006427984154,
+      "source": "sound/cries/009.wav",
+      "sha256": "416f321e1e81b0daf7ada0d65dd2cc43abb7918aba4405d21bedb610a7e7ebe8"
+    },
+    {
+      "name": "Chikorita",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/152-chikorita.wav",
+      "duration": 0.41258688990208536,
+      "source": "sound/cries/152.wav",
+      "sha256": "300787d7c255993a8810b213b9db8fd0a03b71724edf5ab25f1b83ad07b866b8"
+    },
+    {
+      "name": "Bayleef",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/153-bayleef.wav",
+      "duration": 0.5631960535167053,
+      "source": "sound/cries/153.wav",
+      "sha256": "332d1c8f336737a0f088ee5c8b531ff531a0b4e6ae6f48b3fd23c726cea86504"
+    },
+    {
+      "name": "Meganium",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/154-meganium.wav",
+      "duration": 0.9445399506689588,
+      "source": "sound/cries/154.wav",
+      "sha256": "78a5b77dfb2ccfe7915594f9e48cb2ac58bb8744916a7ca75f709fea9f4bfeb2"
+    },
+    {
+      "name": "Cyndaquil",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/155-cyndaquil.wav",
+      "duration": 0.48299573959189773,
+      "source": "sound/cries/155.wav",
+      "sha256": "85c4e82fc2e925dc501e446320c6382e705a7a190aa1d27865c600a97040e234"
+    },
+    {
+      "name": "Quilava",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/156-quilava.wav",
+      "duration": 0.8585096046042305,
+      "source": "sound/cries/156.wav",
+      "sha256": "9ab031af2d745490458283fae698f8043bb5fe6335796b82f3da87687d50e677"
+    },
+    {
+      "name": "Typhlosion",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/157-typhlosion.wav",
+      "duration": 1.9027580536661932,
+      "source": "sound/cries/157.wav",
+      "sha256": "1ecad1a3864e67378ac473f1ea95669706e4d676f61120de63f14010cedbb8e3"
+    },
+    {
+      "name": "Totodile",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/158-totodile.wav",
+      "duration": 0.9601614470438747,
+      "source": "sound/cries/158.wav",
+      "sha256": "15396f051ab82bddf244da1273760186aebf9d0522fc3d5f171e32927941d52c"
+    },
+    {
+      "name": "Croconaw",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/159-croconaw.wav",
+      "duration": 1.2065924209582182,
+      "source": "sound/cries/159.wav",
+      "sha256": "a6eb530287bdedbf3c4074aa9fce904dfaae1317204f6905b309d605e0364b23"
+    },
+    {
+      "name": "Feraligatr",
+      "group": "Gen 2",
+      "kind": "reference",
+      "path": "references/160-feraligatr.wav",
+      "duration": 1.6836833844084012,
+      "source": "sound/cries/160.wav",
+      "sha256": "545f0a7a447dec6f6274cffd4e5bb23ae1e5b28022e5b269838661d20594eb96"
+    },
+    {
+      "name": "Treecko",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/252-treecko.wav",
+      "duration": 0.7685178264444278,
+      "source": "sound/cries/252.wav",
+      "sha256": "fac34c5e928891900e3fe7fe11ba86995892cdaf22f6f73659d0b8b7df011457"
+    },
+    {
+      "name": "Grovyle",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/253-grovyle.wav",
+      "duration": 1.0970177143284252,
+      "source": "sound/cries/253.wav",
+      "sha256": "3183aadcf55d7decefe76c61e8ccb4eb7984b680e7c2b76e80d777ba66e4ba6e"
+    },
+    {
+      "name": "Sceptile",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/254-sceptile.wav",
+      "duration": 1.3434486882427685,
+      "source": "sound/cries/254.wav",
+      "sha256": "cfa2de263d95b91b7db1537a83e424e1e4825a9fdc2faad9c936d06dc8af6ed3"
+    },
+    {
+      "name": "Torchic",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/255-torchic.wav",
+      "duration": 0.594513790268331,
+      "source": "sound/cries/255.wav",
+      "sha256": "03f83596786df676c259bba16195255c254d30b149b62f86426fe57ac204b367"
+    },
+    {
+      "name": "Combusken",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/256-combusken.wav",
+      "duration": 1.3434486882427685,
+      "source": "sound/cries/256.wav",
+      "sha256": "07b231033a6f21978e6452cb02494f54a0aa10e951d8127df9b5d575c82ed233"
+    },
+    {
+      "name": "Blaziken",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/257-blaziken.wav",
+      "duration": 1.9378877345093057,
+      "source": "sound/cries/257.wav",
+      "sha256": "5f1c0c347465574269870dcd2e2298ce90d40342a04907ac9e292079b0994e2a"
+    },
+    {
+      "name": "Mudkip",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/258-mudkip.wav",
+      "duration": 0.4693175872636221,
+      "source": "sound/cries/258.wav",
+      "sha256": "8dd02aad5349facab7dbf0d3ca84346965822719462f4cf871788478d47d9033"
+    },
+    {
+      "name": "Marshtomp",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/259-marshtomp.wav",
+      "duration": 0.9445399506689588,
+      "source": "sound/cries/259.wav",
+      "sha256": "ecf523f4b1450fdd2a1d8e38537660b69442225e4289519b15b632dbff07c66a"
+    },
+    {
+      "name": "Swampert",
+      "group": "Gen 3",
+      "kind": "reference",
+      "path": "references/260-swampert.wav",
+      "duration": 1.1908961805815084,
+      "source": "sound/cries/260.wav",
+      "sha256": "4ae09020d4fdaf1722b4496eeb0d64da2784fa1a3afe4307ab960c0be9a308f5"
+    },
+    {
+      "name": "Turtwig",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/387-turtwig.wav",
+      "duration": 0.6629045519097092,
+      "source": "sound/cries/387.wav",
+      "sha256": "2d47fefcdca20fbd7f7d22f08d7fbe2fe56c54d2b348abc9dcc1d4e7efd732e4"
+    },
+    {
+      "name": "Grotle",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/388-grotle.wav",
+      "duration": 0.7567830181627925,
+      "source": "sound/cries/388.wav",
+      "sha256": "c879c145e7d2e0eb5ec34dccb0fcc889fc98c500242def19d61145e92be02bdc"
+    },
+    {
+      "name": "Torterra",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/389-torterra.wav",
+      "duration": 1.7775618506614843,
+      "source": "sound/cries/389.wav",
+      "sha256": "abcf97e7cf1d6a5a6519be0ca8c1737f2c217373eb3cfc3ec9b3567fbb4caa5c"
+    },
+    {
+      "name": "Chimchar",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/390-chimchar.wav",
+      "duration": 1.3590701846176845,
+      "source": "sound/cries/390.wav",
+      "sha256": "772bfe21e1a2768fab012f84090b062abb40bd2d8ac7b52b3c27ec94916e0e03"
+    },
+    {
+      "name": "Monferno",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/391-monferno.wav",
+      "duration": 1.2417968458031243,
+      "source": "sound/cries/391.wav",
+      "sha256": "64773e7594f970c00a5f47c7297cc251ea63f7b4dfae6d1d5df4a4f7daf7b627"
+    },
+    {
+      "name": "Infernape",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/392-infernape.wav",
+      "duration": 1.6680618880334852,
+      "source": "sound/cries/392.wav",
+      "sha256": "6fcbe3b3595667a121afcf7c5d99ad65444c080a9cbe73ea64589bfcc28f103e"
+    },
+    {
+      "name": "Piplup",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/393-piplup.wav",
+      "duration": 0.594513790268331,
+      "source": "sound/cries/393.wav",
+      "sha256": "a10f854569613460e191ca1222a40b2352522828a41b207a7ec61023a8187025"
+    },
+    {
+      "name": "Prinplup",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/394-prinplup.wav",
+      "duration": 0.9445399506689588,
+      "source": "sound/cries/394.wav",
+      "sha256": "f618292a1ef3e9b171dbd5f4450f68460d7c578399ba75e63b20d330e5a4b6b5"
+    },
+    {
+      "name": "Empoleon",
+      "group": "Gen 4",
+      "kind": "reference",
+      "path": "references/395-empoleon.wav",
+      "duration": 1.339562000149488,
+      "source": "sound/cries/395.wav",
+      "sha256": "c738dd5256bf620cd1a9757f7a6d7bb322b88ad05fe457d49616c16e1382a501"
+    },
+    {
+      "name": "Mareep",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/179-mareep.wav",
+      "duration": 0.5318783167650796,
+      "source": "sound/cries/179.wav",
+      "sha256": "a1f8d09e56baf91249f4ff35a1f7a78a9423263ce57268d94d30df47cf579fdb"
+    },
+    {
+      "name": "Flaaffy",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/180-flaaffy.wav",
+      "duration": 0.9836310636071455,
+      "source": "sound/cries/180.wav",
+      "sha256": "febf7880e342bb07869b2e659a980e30e247a30a427bda958a9bfedd3405d34a"
+    },
+    {
+      "name": "Ampharos",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/181-ampharos.wav",
+      "duration": 0.9132222139173332,
+      "source": "sound/cries/181.wav",
+      "sha256": "0757e0c9fa3401438540eab12b79b16152f9ad5c126e384e7a5bc45422cb54d2"
+    },
+    {
+      "name": "Shinx",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/403-shinx.wav",
+      "duration": 0.6570745197697885,
+      "source": "sound/cries/403.wav",
+      "sha256": "d93e5caf2f33067cc9239f56a6f65d046e2b770cc8f1cfea53c8b50ee6d69440"
+    },
+    {
+      "name": "Luxio",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/404-luxio.wav",
+      "duration": 1.7188878092533075,
+      "source": "sound/cries/404.wav",
+      "sha256": "ebb93d060c4f05f8bb41718af9edd2f8d31a373272dd8914e320b33aba7066e2"
+    },
+    {
+      "name": "Luxray",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/405-luxray.wav",
+      "duration": 1.765827042379849,
+      "source": "sound/cries/405.wav",
+      "sha256": "f33a2eb9960a00857da1238c001e7515e76a636845c6497085425996ca958c7c"
+    },
+    {
+      "name": "Elekid",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/239-elekid.wav",
+      "duration": 0.6257567830181628,
+      "source": "sound/cries/239.wav",
+      "sha256": "7bcc1ce0fb9f448741abefc4bc5e2b23f07b83c959d250d43aa71fa580a775ad"
+    },
+    {
+      "name": "Electabuzz",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/125-electabuzz.wav",
+      "duration": 1.456835338964048,
+      "source": "sound/cries/125.wav",
+      "sha256": "da1060956fb2394fef6c6617d32a0e6d3af416bcc363b7dcd340fb7471bbd8f8"
+    },
+    {
+      "name": "Electivire",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/466-electivire.wav",
+      "duration": 2.0278795126691085,
+      "source": "sound/cries/466.wav",
+      "sha256": "0730ef2eec07b780a5eee45d2260fd4565a91f8a9023a39911d2d367ec5a0591"
+    },
+    {
+      "name": "Machop",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/066-machop.wav",
+      "duration": 0.8389266761342402,
+      "source": "sound/cries/066.wav",
+      "sha256": "26fcbdc99241d4632e13f8fc41ab036f3fdf3ab3738f7e7d249931deab1dac41"
+    },
+    {
+      "name": "Machoke",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/067-machoke.wav",
+      "duration": 0.745048209881157,
+      "source": "sound/cries/067.wav",
+      "sha256": "4b3cc3ae48d9b8b9723b29ba73d88df9b69746b4feb85e0e01bc12328a869cf8"
+    },
+    {
+      "name": "Machamp",
+      "group": "Electric comparisons",
+      "kind": "reference",
+      "path": "references/068-machamp.wav",
+      "duration": 0.9328051423873234,
+      "source": "sound/cries/068.wav",
+      "sha256": "48a096b034dfe84df2ef3e329bba7695aad793e8c6b90abc5d8cdeea0f981bfb"
+    },
+    {
+      "name": "Swinub",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/220-swinub.wav",
+      "duration": 0.752896330069512,
+      "source": "sound/cries/220.wav",
+      "sha256": "827f637f59486447f4740542d1c73208ef5578d9fc58b610d71718990c316fc2"
+    },
+    {
+      "name": "Piloswine",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/221-piloswine.wav",
+      "duration": 0.745048209881157,
+      "source": "sound/cries/221.wav",
+      "sha256": "4f11de230d2320190c17fc2f92df5eee6af94ba22986eae6c27d9d747e8dffd0"
+    },
+    {
+      "name": "Mamoswine",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/473-mamoswine.wav",
+      "duration": 1.6954181926900367,
+      "source": "sound/cries/473.wav",
+      "sha256": "0cb1a30209508d6059b04c041fdbfb8ff374b5d6fe2d142ae473150967d623bf"
+    },
+    {
+      "name": "Spheal",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/363-spheal.wav",
+      "duration": 0.3696090888706181,
+      "source": "sound/cries/363.wav",
+      "sha256": "6a2b576804b2fa43d9f380581a3d23f9c8ab3ffbec9b97cac9938336d90d809f"
+    },
+    {
+      "name": "Sealeo",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/364-sealeo.wav",
+      "duration": 0.6511697436280739,
+      "source": "sound/cries/364.wav",
+      "sha256": "af6d8782b3cec54bfd94f60952eebbc350214306223bc1696c3ad43d364c7662"
+    },
+    {
+      "name": "Walrein",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/365-walrein.wav",
+      "duration": 1.8283877718813066,
+      "source": "sound/cries/365.wav",
+      "sha256": "e2163d393ab86dccda49f71e436949327025355d9fff4a07a18618aa739c9823"
+    },
+    {
+      "name": "Sneasel",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/215-sneasel.wav",
+      "duration": 0.5573660213767845,
+      "source": "sound/cries/215.wav",
+      "sha256": "63d446a61134fc716fb103f2bd2b80d396cc7564e70eee943499b012627fcbbe"
+    },
+    {
+      "name": "Weavile",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/461-weavile.wav",
+      "duration": 0.8271918678526048,
+      "source": "sound/cries/461.wav",
+      "sha256": "50f8aceb155a28a1d7eda3a0ad35a315bddfdc30902b717b23823c325d984618"
+    },
+    {
+      "name": "Houndour",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/228-houndour.wav",
+      "duration": 0.760669706256073,
+      "source": "sound/cries/228.wav",
+      "sha256": "22d1b9b6a6bf9b9a4ca29ffc5b57adbc177eb74776413df7c89f5b0972c49476"
+    },
+    {
+      "name": "Houndoom",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/229-houndoom.wav",
+      "duration": 1.1204873308916958,
+      "source": "sound/cries/229.wav",
+      "sha256": "5c8044001d6d49f5e65227cf21d1ebc519f3f0837c304d62d1266a3af21b4558"
+    },
+    {
+      "name": "Magby",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/240-magby.wav",
+      "duration": 0.8154570595709695,
+      "source": "sound/cries/240.wav",
+      "sha256": "8b1aaf7c0d401e8eda5ea3ea01a373d531c90723ac9bd775ce74706919440259"
+    },
+    {
+      "name": "Magmar",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/126-magmar.wav",
+      "duration": 1.1204873308916958,
+      "source": "sound/cries/126.wav",
+      "sha256": "44daa1b83ee2d4916d294b869988b5064a479aec83a3fdb38778d185e2d14cf6"
+    },
+    {
+      "name": "Magmortar",
+      "group": "Varan comparisons",
+      "kind": "reference",
+      "path": "references/467-magmortar.wav",
+      "duration": 1.464683459152403,
+      "source": "sound/cries/467.wav",
+      "sha256": "de9662a4c22dde50b95bf7465ecf0cd12b499223234dd952cc932194c306c31c"
+    },
+    {
+      "name": "Pidgey",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/016-pidgey.wav",
+      "duration": 0.377457209058973,
+      "source": "sound/cries/016.wav",
+      "sha256": "bb9318b654b13e2a798bf36c95a63255a225e1dec6ea26b4ff74911b11b57d6c"
+    },
+    {
+      "name": "Pidgeotto",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/017-pidgeotto.wav",
+      "duration": 0.8662829807907916,
+      "source": "sound/cries/017.wav",
+      "sha256": "6b0b6a42f8ff3e3262fa75a7ed6a7ca0795bc73697855e9d1802aee5631060b1"
+    },
+    {
+      "name": "Pidgeot",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/018-pidgeot.wav",
+      "duration": 1.0266836086404065,
+      "source": "sound/cries/018.wav",
+      "sha256": "ede26277d7c79a83b576bdcf4ed91d644ac85da1689089f5be2a4f5b11b1eaa7"
+    },
+    {
+      "name": "Starly",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/396-starly.wav",
+      "duration": 1.1556917557366022,
+      "source": "sound/cries/396.wav",
+      "sha256": "8c1c5fd2cc71a4bf6fed12e545cb718591f19220338db2d1e9d48d2930905cd2"
+    },
+    {
+      "name": "Staravia",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/397-staravia.wav",
+      "duration": 1.3356005680544136,
+      "source": "sound/cries/397.wav",
+      "sha256": "11c46d2c5b4f93e584efb86338e65013638fcc9859ae0643e6eba0642c654de5"
+    },
+    {
+      "name": "Staraptor",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/398-staraptor.wav",
+      "duration": 1.7775618506614843,
+      "source": "sound/cries/398.wav",
+      "sha256": "0c743de67aaedd4edccbf1193445bb71ccadef5be9fec88e2edbdffbd65c3064"
+    },
+    {
+      "name": "Trapinch",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/328-trapinch.wav",
+      "duration": 0.5924957022198969,
+      "source": "sound/cries/328.wav",
+      "sha256": "032526f9d446bf68d7e91889e35ff10639386d146308eea1799a88dc37de0368"
+    },
+    {
+      "name": "Vibrava",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/329-vibrava.wav",
+      "duration": 0.9562747589505942,
+      "source": "sound/cries/329.wav",
+      "sha256": "ddd93cb444891a35701ea298a72da1ac2f7fffdd33fbe5916d624058c37f3572"
+    },
+    {
+      "name": "Flygon",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/330-flygon.wav",
+      "duration": 1.3630316167127587,
+      "source": "sound/cries/330.wav",
+      "sha256": "f96ea997a92f93b7021bcf32927a7247e4a0b996ce59616e60b03d91b363b96c"
+    },
+    {
+      "name": "Gligar",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/207-gligar.wav",
+      "duration": 0.6551311757231482,
+      "source": "sound/cries/207.wav",
+      "sha256": "fd052b109bdbefb1f3690020664aef817f548dd0f6996b63c2439e942ded33f3"
+    },
+    {
+      "name": "Gliscor",
+      "group": "Bird comparisons",
+      "kind": "reference",
+      "path": "references/472-gliscor.wav",
+      "duration": 1.3825398011809553,
+      "source": "sound/cries/472.wav",
+      "sha256": "4a4d8dc7fbf6d0c09820b84454b4ea430edd28b60c58fe6496967862192ca0d6"
+    },
+    {
+      "name": "Voltuff v1",
+      "group": "Electric v1",
+      "kind": "previous draft",
+      "path": "archive/electric-v1/voltuff.wav",
+      "duration": 0.75994873046875,
+      "sha256": "d359640a6d94dd09cf47335ca05f3f90b9932efca73f817d34144a3a5b24ae8c"
+    },
+    {
+      "name": "Surguenon v1",
+      "group": "Electric v1",
+      "kind": "previous draft",
+      "path": "archive/electric-v1/surguenon.wav",
+      "duration": 1.0799560546875,
+      "sha256": "386869a95c4e3e9b05511aaa549c678783569adebc6f873d3cb104d7da3f5971"
+    },
+    {
+      "name": "Raijinque v1",
+      "group": "Electric v1",
+      "kind": "previous draft",
+      "path": "archive/electric-v1/raijinque.wav",
+      "duration": 1.51995849609375,
+      "sha256": "49531ddab6199fac07eceea8c40c9105b8e220159fc7e96176a48ce183a5d39c"
+    },
+    {
+      "name": "Voltuff v2",
+      "group": "Electric v2",
+      "kind": "previous draft",
+      "path": "archive/electric-v2/voltuff.wav",
+      "duration": 0.75994873046875,
+      "sha256": "d359640a6d94dd09cf47335ca05f3f90b9932efca73f817d34144a3a5b24ae8c"
+    },
+    {
+      "name": "Surguenon v2",
+      "group": "Electric v2",
+      "kind": "previous draft",
+      "path": "archive/electric-v2/surguenon.wav",
+      "duration": 1.1199951171875,
+      "sha256": "b9b7578fd8c7ce710c5ff53b9d106ba72b909ab834902b007b65c04f7f8c2136"
+    },
+    {
+      "name": "Raijinque v2",
+      "group": "Electric v2",
+      "kind": "previous draft",
+      "path": "archive/electric-v2/raijinque.wav",
+      "duration": 1.39996337890625,
+      "sha256": "b4989159cbbb63e915843cfccb9020a4ebbc389bb1422c0ce2a76d1e9d796e56"
+    },
+    {
+      "name": "Embernewt v1",
+      "group": "Varan v1",
+      "kind": "previous draft",
+      "path": "archive/varan-v1/embernewt.wav",
+      "duration": 0.75994873046875,
+      "sha256": "1982983108f34fe06652bbf0f554bf179a7e924bf07ad02a120801a1e98c6b77"
+    },
+    {
+      "name": "Pyrovaran v1",
+      "group": "Varan v1",
+      "kind": "previous draft",
+      "path": "archive/varan-v1/pyrovaran.wav",
+      "duration": 1.0799560546875,
+      "sha256": "604311129356bd6c5113149e2b275e663abd3c919500acd3d82d25fc58ece70d"
+    },
+    {
+      "name": "Magmalisk v1",
+      "group": "Varan v1",
+      "kind": "previous draft",
+      "path": "archive/varan-v1/magmalisk.wav",
+      "duration": 1.51995849609375,
+      "sha256": "50510d8299f6da3dfe9502935aa75f5d91605ca96fe950f357cf75165a63fbd5"
+    },
+    {
+      "name": "Rimevaran v1",
+      "group": "Varan v1",
+      "kind": "previous draft",
+      "path": "archive/varan-v1/rimevaran.wav",
+      "duration": 1.0799560546875,
+      "sha256": "33ca8cbfb4d63b0309e2f0c60f412a408dcd9fd424fc82af64629ab9da4fa217"
+    },
+    {
+      "name": "Fimbulisk v1",
+      "group": "Varan v1",
+      "kind": "previous draft",
+      "path": "archive/varan-v1/fimbulisk.wav",
+      "duration": 1.51995849609375,
+      "sha256": "00d2e0a7b6359421f5038da25655cc66f08d0e50510943fa029eace4b5d8695f"
+    },
+    {
+      "name": "Embernewt v2",
+      "group": "Varan v2",
+      "kind": "previous draft",
+      "path": "archive/varan-v2/embernewt.wav",
+      "duration": 0.7349853515625,
+      "sha256": "b4b5c8553da515db969a4ef6eb558671537c2cd0d05f447b9a91ff5a11f0bc98"
+    },
+    {
+      "name": "Pyrovaran v2",
+      "group": "Varan v2",
+      "kind": "previous draft",
+      "path": "archive/varan-v2/pyrovaran.wav",
+      "duration": 1.125,
+      "sha256": "748f858d011562161209d6b0f16b880b09cab68833e22188816bac3fae8477ee"
+    },
+    {
+      "name": "Magmalisk v2",
+      "group": "Varan v2",
+      "kind": "previous draft",
+      "path": "archive/varan-v2/magmalisk.wav",
+      "duration": 1.4749755859375,
+      "sha256": "d0419b92bb884c64edd9bba7488a3672a51302acd68b2520eb1d7ac211779063"
+    },
+    {
+      "name": "Rimevaran v2",
+      "group": "Varan v2",
+      "kind": "previous draft",
+      "path": "archive/varan-v2/rimevaran.wav",
+      "duration": 1.125,
+      "sha256": "3bdcb95ae54037bb74303fd930e77a6125ceb2909cab89bde69459edee05d122"
+    },
+    {
+      "name": "Fimbulisk v2",
+      "group": "Varan v2",
+      "kind": "previous draft",
+      "path": "archive/varan-v2/fimbulisk.wav",
+      "duration": 1.4749755859375,
+      "sha256": "e7964322d3abe07a038d65a17593eb9c9da28b307e8c0c81b38d04d613d29932"
+    },
+    {
+      "name": "Sedgling v1",
+      "group": "Bird v1",
+      "kind": "previous draft",
+      "path": "archive/bird-v1/sedgling.wav",
+      "duration": 0.75994873046875,
+      "sha256": "6901f0f302bbbf7d19e8f180ec6ae7143a3d496261a94909a7f2dde3f085b0fa"
+    },
+    {
+      "name": "Cragaviar v1",
+      "group": "Bird v1",
+      "kind": "previous draft",
+      "path": "archive/bird-v1/cragaviar.wav",
+      "duration": 1.0799560546875,
+      "sha256": "0b359586a38e1a6e0bc9e04c37d1d6ca290aa75e57aff5065290648004a14afa"
+    },
+    {
+      "name": "Ragnaroc v1",
+      "group": "Bird v1",
+      "kind": "previous draft",
+      "path": "archive/bird-v1/ragnaroc.wav",
+      "duration": 1.51995849609375,
+      "sha256": "081468d77b170eaa45d4e3a8af9bd858aa809687387fdf60478ded7ad98aaf15"
+    },
+    {
+      "name": "Sedgling v2",
+      "group": "Bird v2",
+      "kind": "previous draft",
+      "path": "archive/bird-v2/sedgling.wav",
+      "duration": 0.65997314453125,
+      "sha256": "d21543418733343fa7f7526d537ce9691a005e190f9ac6eb814984a8a1d145ce"
+    },
+    {
+      "name": "Cragaviar v2",
+      "group": "Bird v2",
+      "kind": "previous draft",
+      "path": "archive/bird-v2/cragaviar.wav",
+      "duration": 1.199951171875,
+      "sha256": "d0540e8bf873e32b4485548f58c734c24215893964b533bd459d99ef8783264d"
+    },
+    {
+      "name": "Ragnaroc v2",
+      "group": "Bird v2",
+      "kind": "previous draft",
+      "path": "archive/bird-v2/ragnaroc.wav",
+      "duration": 1.64996337890625,
+      "sha256": "767803a78c619fff4ff36d1d14a2fa4f213e09b4f5170cb91b84bfa2255619ad"
+    },
+    {
+      "name": "Sedgling v3",
+      "group": "Bird v3",
+      "kind": "previous draft",
+      "path": "archive/bird-v3/sedgling.wav",
+      "duration": 0.8299560546875,
+      "sha256": "33dacc899c5e8b86734105d9ab6acb31241566d6009691d7621c8102488ae7ea"
+    },
+    {
+      "name": "Cragaviar v3",
+      "group": "Bird v3",
+      "kind": "previous draft",
+      "path": "archive/bird-v3/cragaviar.wav",
+      "duration": 1.13995361328125,
+      "sha256": "2a4856c765ebb32df845814e3a0af0244bd362e6e10da7df931bdda546c9bab5"
+    },
+    {
+      "name": "Ragnaroc v3",
+      "group": "Bird v3",
+      "kind": "previous draft",
+      "path": "archive/bird-v3/ragnaroc.wav",
+      "duration": 1.52996826171875,
+      "sha256": "94f128d9942a57bef489fdc12c7025e630550d870f5f07ac61d01e74c4e42230"
+    },
+    {
+      "name": "Sedgling v4",
+      "group": "Bird v4",
+      "kind": "previous draft",
+      "path": "archive/bird-v4/sedgling.wav",
+      "duration": 0.8299560546875,
+      "sha256": "33dacc899c5e8b86734105d9ab6acb31241566d6009691d7621c8102488ae7ea"
+    },
+    {
+      "name": "Cragaviar v4",
+      "group": "Bird v4",
+      "kind": "previous draft",
+      "path": "archive/bird-v4/cragaviar.wav",
+      "duration": 1.13995361328125,
+      "sha256": "1e19a5b594de9a7faaddda978782215aba5e32d137ab2c95edf7a5c303952321"
+    },
+    {
+      "name": "Ragnaroc v4",
+      "group": "Bird v4",
+      "kind": "previous draft",
+      "path": "archive/bird-v4/ragnaroc.wav",
+      "duration": 1.52996826171875,
+      "sha256": "1dc7be956024b4f9d0fcadb208937e6709f3766470501f67e6d0d6b2e007fb48"
+    }
+  ],
+  "preview_timestamps": {
+    "Electric": [
+      {
+        "name": "Voltuff",
+        "seconds": 0.0
+      },
+      {
+        "name": "Surguenon",
+        "seconds": 1.41
+      },
+      {
+        "name": "Raijinque",
+        "seconds": 3.31
+      }
+    ],
+    "Varan": [
+      {
+        "name": "Embernewt",
+        "seconds": 0.0
+      },
+      {
+        "name": "Pyrovaran",
+        "seconds": 1.385
+      },
+      {
+        "name": "Magmalisk",
+        "seconds": 3.14
+      },
+      {
+        "name": "Rimevaran",
+        "seconds": 5.105
+      },
+      {
+        "name": "Fimbulisk",
+        "seconds": 6.96
+      }
+    ],
+    "Bird": [
+      {
+        "name": "Sedgling",
+        "seconds": 0.0
+      },
+      {
+        "name": "Cragaviar",
+        "seconds": 1.48
+      },
+      {
+        "name": "Ragnaroc",
+        "seconds": 3.27
+      }
+    ]
+  },
+  "sample_sources": [
+    {
+      "key": "fireplace",
+      "page": "https://freesound.org/people/Davor/sounds/382616/",
+      "downloaded_preview": "https://cdn.freesound.org/previews/382/382616_7094269-hq.mp3",
+      "license": "CC0 1.0",
+      "sha256": "1e470bafa4a1a44d143beb0ae65664e574fe01243d82901a8428b4e41251320e",
+      "processing": "Public HQ MP3 preview decoded to mono PCM16 at 16384 Hz; short excerpts used at native playback speed in cry mix."
+    },
+    {
+      "key": "snowstorm",
+      "page": "https://freesound.org/people/martypinso/sounds/35480/",
+      "downloaded_preview": "https://cdn.freesound.org/previews/35/35480_85523-hq.mp3",
+      "license": "CC0 1.0",
+      "sha256": "8b4016e16ebeedad95fc8a82346a49ede1bea78ed325f7d693e46a91a72521eb",
+      "processing": "Public HQ MP3 preview decoded to mono PCM16 at 16384 Hz; short excerpts used at native playback speed in cry mix."
+    }
+  ],
+  "validation": {
+    "bird_revision": 5,
+    "checks": [
+      {
+        "name": "Cragaviar",
+        "rms": 0.215,
+        "peak": 0.97,
+        "conversion_pass": true
+      },
+      {
+        "name": "Ragnaroc",
+        "rms": 0.37,
+        "peak": 0.859,
+        "conversion_pass": true
+      }
+    ],
+    "unchanged_other_nine_drafts": true,
+    "gameplay_playback_tested": false,
+    "bird_listening_approval": true
+  },
+  "user_listening_approval": true
+}

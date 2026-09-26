@@ -20650,4 +20650,13 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
         },
     },
 
+// BEGIN APPROVED FAKEMON
+    [SPECIES_VOLTUFF] = { .entries = { { EVO_LEVEL, 16, SPECIES_SURGUENON } } },
+    [SPECIES_SURGUENON] = { .entries = { { EVO_LEVEL, 49, SPECIES_RAIJINQUE } } },
+    [SPECIES_EMBERNEWT] = { .entries = { { EVO_LEVEL, 16, SPECIES_PYROVARAN } } },
+    [SPECIES_PYROVARAN] = { .entries = { { EVO_LEVEL, 49, SPECIES_MAGMALISK } } },
+    [SPECIES_RIMEVARAN] = { .entries = { { EVO_LEVEL, 49, SPECIES_FIMBULISK } } },
+    [SPECIES_SEDGLING] = { .entries = { { EVO_LEVEL, 16, SPECIES_CRAGAVIAR } } },
+    [SPECIES_CRAGAVIAR] = { .entries = { { EVO_LEVEL, 49, SPECIES_RAGNAROC } } },
+// END APPROVED FAKEMON
 };

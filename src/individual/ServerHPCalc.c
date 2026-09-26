@@ -1,3 +1,4 @@
+#include "fakemon.h"
 #include "config.h"
 #include "debug.h"
 #include "types.h"
@@ -143,6 +144,7 @@ void ServerHPCalc(struct BattleSystem *bw, struct BattleStruct *sp)
              * END OF ORIGINAL AND USER-DEFINED DAMAGE CALCULATIONS.
              * ALL NEW EFFECTS SHOULD BE PLACED ABOVE THIS COMMENT UNLESS YOU WISH TO EDIT THE CODE BELOW.
              */
+            FakemonRecordDamage(bw, sp, GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index), GetBattleMonItem(sp, sp->attack_client));
             sp->store_damage[sp->defence_client] += sp->damage;
 
             if (sp->battlemon[sp->defence_client].hit_count < 255) {

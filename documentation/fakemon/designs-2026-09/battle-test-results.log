@@ -1,0 +1,159 @@
+Running 2 test partitions. Logs will be printed in order after completion.
+Started partition 1/2 (tests 0..4)
+Started partition 2/2 (tests 5..10)
+[92m[Pass] Fakemon - Cragaviar loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Embernewt loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Fimbulisk loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Magmalisk loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Pyrovaran loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Ragnaroc loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Raijinque loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Rimevaran loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Sedgling loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Surguenon loads correct types, name, battle sprites and cry[0m
+[92m[Pass] Fakemon - Voltuff loads correct types, name, battle sprites and cry[0m
+== Partition 1/2 ==
+
+
+##[group]Fakemon - Cragaviar loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Cragaviar!
+--- Turn 0 ---
+The opposing Magikarp used Splash!
+But nothing happened!
+Cragaviar used Splash! ✅
+But nothing happened!
+
+[92m[Pass] Fakemon - Cragaviar loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Embernewt loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Embernewt!
+--- Turn 0 ---
+The opposing Magikarp used Splash!
+But nothing happened!
+Embernewt used Splash! ✅
+But nothing happened!
+
+[92m[Pass] Fakemon - Embernewt loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Fimbulisk loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Fimbulisk!
+--- Turn 0 ---
+Fimbulisk used Splash! ✅
+But nothing happened!
+The opposing Magikarp used Splash!
+But nothing happened!
+
+[92m[Pass] Fakemon - Fimbulisk loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Magmalisk loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Magmalisk!
+--- Turn 0 ---
+Magmalisk used Splash! ✅
+But nothing happened!
+The opposing Magikarp used Splash!
+But nothing happened!
+
+[92m[Pass] Fakemon - Magmalisk loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Pyrovaran loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Pyrovaran!
+--- Turn 0 ---
+The opposing Magikarp used Splash!
+But nothing happened!
+Pyrovaran used Splash! ✅
+But nothing happened!
+
+[92m[Pass] Fakemon - Pyrovaran loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+
+== Partition 2/2 ==
+
+
+##[group]Fakemon - Ragnaroc loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Ragnaroc!
+--- Turn 0 ---
+Ragnaroc used Splash! ✅
+But nothing happened!
+The opposing Magikarp used Splash!
+But nothing happened!
+
+[92m[Pass] Fakemon - Ragnaroc loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Raijinque loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Raijinque!
+--- Turn 0 ---
+Raijinque used Splash! ✅
+But nothing happened!
+The opposing Magikarp used Splash!
+But nothing happened!
+
+[92m[Pass] Fakemon - Raijinque loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Rimevaran loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Rimevaran!
+--- Turn 0 ---
+The opposing Magikarp used Splash!
+But nothing happened!
+Rimevaran used Splash! ✅
+But nothing happened!
+
+[92m[Pass] Fakemon - Rimevaran loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Sedgling loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Sedgling!
+--- Turn 0 ---
+The opposing Magikarp used Splash!
+But nothing happened!
+Sedgling used Splash! ✅
+But nothing happened!
+
+[92m[Pass] Fakemon - Sedgling loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Surguenon loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Surguenon!
+--- Turn 0 ---
+Surguenon used Splash! ✅
+But nothing happened!
+The opposing Magikarp used Splash!
+But nothing happened!
+
+[92m[Pass] Fakemon - Surguenon loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+##[group]Fakemon - Voltuff loads correct types, name, battle sprites and cry
+You are challenged by Beauty Victoria!
+Beauty Victoria sent out Magikarp!
+Go! Voltuff!
+--- Turn 0 ---
+The opposing Magikarp used Splash!
+But nothing happened!
+Voltuff used Splash! ✅
+But nothing happened!
+
+[92m[Pass] Fakemon - Voltuff loads correct types, name, battle sprites and cry[0m
+##[endgroup]
+
+Total test summary:
+Number of tests passed: 11
+Tests failed (0):
+Tests known failing (0):
+Tests skipped (0):

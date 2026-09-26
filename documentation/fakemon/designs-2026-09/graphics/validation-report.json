@@ -1,0 +1,337 @@
+{
+  "png_files_checked": 66,
+  "engine_converters_passed": true,
+  "in_game_tested": false,
+  "checks": [
+    {
+      "path": "data/graphics/sprites/voltuff/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/voltuff/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/voltuff/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/voltuff/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/voltuff/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/voltuff/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/surguenon/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/surguenon/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/surguenon/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/surguenon/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/surguenon/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/surguenon/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/raijinque/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/raijinque/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/raijinque/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/raijinque/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/raijinque/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/raijinque/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/embernewt/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/embernewt/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/embernewt/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/embernewt/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/embernewt/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/embernewt/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/pyrovaran/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/pyrovaran/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/pyrovaran/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/pyrovaran/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/pyrovaran/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/pyrovaran/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/magmalisk/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/magmalisk/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/magmalisk/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/magmalisk/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/magmalisk/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/magmalisk/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/rimevaran/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/rimevaran/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/rimevaran/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/rimevaran/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/rimevaran/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/rimevaran/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/fimbulisk/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/fimbulisk/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/fimbulisk/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/fimbulisk/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/fimbulisk/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/fimbulisk/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/sedgling/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/sedgling/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/sedgling/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/sedgling/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/sedgling/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/sedgling/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/cragaviar/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/cragaviar/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/cragaviar/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/cragaviar/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/cragaviar/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/cragaviar/overworld.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/ragnaroc/male/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/ragnaroc/male/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/ragnaroc/female/front.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/ragnaroc/female/back.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/ragnaroc/icon.png",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "data/graphics/sprites/ragnaroc/overworld.png",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

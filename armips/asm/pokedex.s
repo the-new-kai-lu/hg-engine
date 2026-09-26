@@ -238,31 +238,31 @@ e0: // entry 0
     b _return_21E86DE
 
 e1: // entry 1
-    ldr r3, =(2 + (NUM_OF_MONS)) // each entry sequentially add (NUM_OF_MONS + 2) in vanilla.  no reason, we just add NUM_OF_MONS
+    ldr r3, =(2 + (NUM_OF_MONS + 1)) // each entry sequentially add (NUM_OF_MONS + 2) in vanilla.  no reason, we just add NUM_OF_MONS
     b _return_21E86DE
 
 e2: // entry 2
-    ldr r3, =(2 + 2*(NUM_OF_MONS))
+    ldr r3, =(2 + 2*(NUM_OF_MONS + 1))
     b _return_21E86DE
 
 e3: // entry 3
-    ldr r3, =(2 + 6*(NUM_OF_MONS))
+    ldr r3, =(2 + 6*(NUM_OF_MONS + 1))
     b _return_21E86DE
 
 e4: // entry 4
-    ldr r3, =(2 + 3*(NUM_OF_MONS))
+    ldr r3, =(2 + 3*(NUM_OF_MONS + 1))
     b _return_21E86DE
 
 e5: // entry 5
-    ldr r3, =(2 + 4*(NUM_OF_MONS))
+    ldr r3, =(2 + 4*(NUM_OF_MONS + 1))
     b _return_21E86DE
 
 e6: // entry 6
-    ldr r3, =(2 + 5*(NUM_OF_MONS))
+    ldr r3, =(2 + 5*(NUM_OF_MONS + 1))
     b _return_21E86DE
 
 e7: // entry 7
-    ldr r3, =(2 + 7*(NUM_OF_MONS))
+    ldr r3, =(2 + 7*(NUM_OF_MONS + 1))
     // fall through
 
 _return_21E86DE:
@@ -945,6 +945,9 @@ get_dex_num_patch:
     ldr r0, =493
     cmp r1, r0
     ble @@_return_r1 // if not a new mon
+    ldr r0, =1075 // canonical cap; custom species retain their internal Dex numbers
+    cmp r1, r0
+    bhi @@_return_r1
     sub r1, #50
 @@_return_r1:
     mov r0, r1

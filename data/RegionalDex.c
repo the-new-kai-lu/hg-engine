@@ -261,4 +261,5 @@ const u16 UNUSED RegionalDex[] =
     [SPECIES_MEWTWO] = 254,
     [SPECIES_MEW] = 255,
     [SPECIES_CELEBI] = 256,
+    [SPECIES_RAGNAROC] = 0, // Custom families have no Johto number.
 };

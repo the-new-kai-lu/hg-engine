@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-09-26T05:39:21.725102+00:00",
+  "reference_species_count": 175,
+  "level_up_rows": 5317,
+  "compatibility_rows": 3822,
+  "local_sources": {
+    "data/Moves.c": "7bbc44a35f94cbaf717c65a070bb9f459b5dfd52743f6bfe6956bdb2c71421be",
+    "data/Species.c": "bad0a046000b3f2daa9fda778e185dfef20ee1dd49ec064816a9e150121dd218",
+    "data/learnsets/base/10_hgss.json": "fa38a9d5e9adca4a0c436df9d6683cabf30f798a4d70d39ab36334dac5ae8306",
+    "data/learnsets/learnsets.json": "30b4eeaa5e150cd3ff4e0a6776513ed0f82050f799e7b35c445969eeef3b1faf",
+    "src/item.c": "4b60023e0fd0a3cbfb6e11f410f58015684e80f9f85c8fc773b814cd43a83603",
+    "src/field/move_tutor.c": "10cdd4b0a0ba01f69ded0f2ffadf7f3b3039d1aa13d448b9543b1238e7f35ccf",
+    "include/config.h": "105bb31b8ee01eeb277154832921b937cdeff2eb78349e345dcc63d850412172",
+    "include/constants/moves.h": "a3dbc2a4c47c94a5a7506944625da55329d3d60f4a2a7a076fb53d60b8422104"
+  },
+  "remote_sources": {
+    "hgss-waza-tbl.narc": {
+      "url": "https://raw.githubusercontent.com/pret/pokeheartgold/master/files/poketool/waza/waza_tbl.narc",
+      "sha256": "654d7edd0b0be66f6189ee87026dd701a2b8d98afa19a3991c8417803c50faea"
+    }
+  }
+}

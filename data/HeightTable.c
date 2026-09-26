@@ -1549,4 +1549,17 @@ const HeightTableEntry __data[] =
     [SPECIES_ROTOM_MOW] = { 6, 6, 7, 7 },
     [SPECIES_GIRATINA_ORIGIN] = { 0, 0, 0, 0 },
     [SPECIES_PICHU_SPIKY_EAR] = { 8, 8, 22, 22 },
+// BEGIN APPROVED FAKEMON
+    [SPECIES_VOLTUFF] = { 0, 0, 0, 0 },
+    [SPECIES_SURGUENON] = { 0, 0, 0, 0 },
+    [SPECIES_RAIJINQUE] = { 0, 0, 0, 0 },
+    [SPECIES_EMBERNEWT] = { 0, 0, 0, 0 },
+    [SPECIES_PYROVARAN] = { 0, 0, 0, 0 },
+    [SPECIES_MAGMALISK] = { 0, 0, 0, 0 },
+    [SPECIES_RIMEVARAN] = { 0, 0, 0, 0 },
+    [SPECIES_FIMBULISK] = { 0, 0, 0, 0 },
+    [SPECIES_SEDGLING] = { 0, 0, 0, 0 },
+    [SPECIES_CRAGAVIAR] = { 0, 0, 0, 0 },
+    [SPECIES_RAGNAROC] = { 0, 0, 0, 0 },
+// END APPROVED FAKEMON
 };

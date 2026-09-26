@@ -2,14 +2,14 @@
 
 GEN_CHAMPIONS equ 99
 
-GEN_LATEST equ defined(DEBUG_BATTLE_SCENARIOS) ? GEN_CHAMPIONS : 9
+GEN_LATEST equ defined(DEBUG_BATTLE_SCENARIOS) ? GEN_CHAMPIONS : 4
 
 // DISALLOW_DEXIT_GEN controls whether to disallow selection of dexited moves in later generations. Choose any Generation below 8 for none. 0 will instead disable any unimplemented moves.
 DISALLOW_DEXIT_GEN equ 0
 
 // FAIRY_TYPE_IMPLEMENTED defines whether or not the Fairy type is to be implemented as type 9 or not.
 // If you do not want this change, then set it to 0.
-FAIRY_TYPE_IMPLEMENTED equ 1
+FAIRY_TYPE_IMPLEMENTED equ 0
 
 // SNOW_WARNING_GENERATION controls whether to summon Snow or Hail when the ability is activated.
 // 9 or above: Snow
@@ -46,4 +46,4 @@ FAST_TEXT_PRINTING equ 0
 
 // NO_PARTNER_DOUBLE_BATTLES allows for setting trainers to double battles without setting up a partner trainer.  set to 0 to disable
 // note that the entry in `armips/data/trainers/trainertext.s` has to use `TEXT_DOUBLE_DEFEATED_IN_BATTLE_1`, but the overworld entries can remain the same.
-NO_PARTNER_DOUBLE_BATTLES equ 1
+NO_PARTNER_DOUBLE_BATTLES equ 0

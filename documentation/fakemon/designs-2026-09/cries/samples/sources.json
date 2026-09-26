@@ -1,0 +1,18 @@
+[
+  {
+    "key": "fireplace",
+    "page": "https://freesound.org/people/Davor/sounds/382616/",
+    "downloaded_preview": "https://cdn.freesound.org/previews/382/382616_7094269-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "1e470bafa4a1a44d143beb0ae65664e574fe01243d82901a8428b4e41251320e",
+    "processing": "Public HQ MP3 preview decoded to mono PCM16 at 16384 Hz; short excerpts used at native playback speed in cry mix."
+  },
+  {
+    "key": "snowstorm",
+    "page": "https://freesound.org/people/martypinso/sounds/35480/",
+    "downloaded_preview": "https://cdn.freesound.org/previews/35/35480_85523-hq.mp3",
+    "license": "CC0 1.0",
+    "sha256": "8b4016e16ebeedad95fc8a82346a49ede1bea78ed325f7d693e46a91a72521eb",
+    "processing": "Public HQ MP3 preview decoded to mono PCM16 at 16384 Hz; short excerpts used at native playback speed in cry mix."
+  }
+]

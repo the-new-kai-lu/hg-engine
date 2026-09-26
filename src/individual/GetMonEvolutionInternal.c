@@ -1,3 +1,4 @@
+#include "fakemon.h"
 #include "config.h"
 #include "debug.h"
 #include "types.h"
@@ -71,6 +72,13 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
     if (method_ret == NULL) {
         method_ret = &method_local;
+    }
+
+    if (species == SPECIES_EMBERNEWT && context == EVOCTX_LEVELUP
+        && FakemonConsumeIceEvolution(pokemon)) {
+        *method_ret = EVO_LEVEL;
+        memset(gEvolutionSceneOverride, 0, sizeof(gEvolutionSceneOverride));
+        return SPECIES_RIMEVARAN;
     }
 
     species = PokeOtherFormMonsNoGet(species, form); // factor in form into species to cover shit like galarian corsola + cap pikachu that can't evolve
